@@ -1,4 +1,4 @@
-name: Sync llms.txt to README
+name: Sync llms.txt and README
 
 on:
   schedule:
@@ -12,16 +12,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download latest llms.txt into README.md
+      - name: Download latest llms.txt
         run: |
-          curl -s https://lycantyr.com/llms.txt -o README.md
+          curl -s https://lycantyr.com/llms.txt -o llms.txt
+
+      - name: Copy llms.txt to README.md
+        run: |
+          cp llms.txt README.md
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update README.md from website" && git push)
+          git add llms.txt README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sync llms.txt and README.md from website" && git push)
 
       - name: Push rules to itch.io
         uses: josephbmanley/butler-publish-itchio-action@master
@@ -30,4 +34,4 @@ jobs:
           CHANNEL: documentation
           ITCH_GAME: lycantyr
           ITCH_USER: lycantyr
-          PACKAGE: README.md
+          PACKAGE: llms.txt
