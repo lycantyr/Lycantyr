@@ -22,3 +22,12 @@ jobs:
           git config --local user.name "GitHub Action"
           git add llms.txt
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sync llms.txt from website" && git push)
+
+      - name: Push rules to itch.io
+        uses: josephbmanley/butler-publish-itchio-action@master
+        env:
+          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
+          CHANNEL: documentation
+          ITCH_GAME: lycantyr
+          ITCH_USER: adonisperbet-del
+          PACKAGE: llms.txt
