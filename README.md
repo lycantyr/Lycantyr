@@ -4,12 +4,12 @@
 https://lycantyr.com
 https://discord.gg/gGCuXGJuYM
 
-Lycantyr est un jeu de rôles cachés et de déduction sociale multijoueur en temps réel. Les joueurs discutent, enquêtent, votent et utilisent des pouvoirs pour faire gagner leur faction.
+Lycantyr est un jeu de rôles cachés et de déduction sociale multijoueur en temps réel. Les joueurs discutent, enquêtent, votent et utilisent des pouvoirs pour faire gagner leur camp. Les morts continuent à jouer avec leur camp, en pouvant continuer a discuter et à débattre ensemble pour ajouter un vote au village, et certains rôles peuvent les utiliser.
 Dans Lycantyr n'importe quel rôle peut appartenir à n'importr quel camp. On peut vous dire "Je suis petite fille" ou "Je suis chasseur" et c'est vérifiable par certains rôles mais vous ne saurez pas à quel camp il appartient.
+Le jeu repose sur un anonymat strict : les joueurs agissent sous un "Pseudo Secret" la nuit et l'identité des rôles morts n'est jamais confirmée publiquement. L'inactivité est sanctionnée par une mort automatique (foudroyage).
 Il y a deux modes de jeu:
 Un en manuel où les joueurs peuvent passer la phase en cliquant sur un bouton (2min à partir du premier joueur qui clique et instantanné lorsque tous les joueurs ont cliqué).
 Un en mode automatique, c'est des parties qui peuvent s'organiser sur 7 jours. Une nuit dans la vraie vie, c'est une nuit dans le jeu. Et les joueurs peuvent parler, manipuler et élaborer des stratégie pendant toute une semaine entre amis, famille, collègue de travail.
-Le jeu repose sur un anonymat strict : les joueurs agissent sous un "Pseudo Secret" la nuit et l'identité des rôles morts n'est confirmée publiquement qu'au lever du jour suivant (autopsie). L'inactivité est sanctionnée par une mort automatique (foudroyage).
 
 ## 2. LE TEMPS ET L'ESPACE (QUARTIERS)
 
@@ -17,7 +17,7 @@ Le village est physiquement divisé en 5 quartiers : L'Hôtel de Ville, L'Auberg
 
 ### La Phase de Jour (Temps de débat et de vote)
 
-* Le Matin : Annonce des morts de la nuit (Prénom et quartier où il a été trouvé mort) et révélation des résultats d'autopsie (prénom/pseudo secret/rôle/camp) des morts de la veille.
+* Le Matin : Annonce des morts de la nuit (Prénom et quartier où il a été trouvé mort).
 * Élection du Maire (Uniquement le premier jour) : Débat et vote. En cas d'égalité, un second tour départage les finalistes. Le hasard tranche si l'égalité persiste.
 * Lynchage : Débat et vote pour exécuter un suspect. En cas d'égalité, un second tour a lieu entre les finalistes. Si l'égalité persiste, personne n'est exécuté.
 * Crépuscule : L'exécution a lieu (le rôle de la victime reste secret jusqu'au lendemain). La nuit tombe.
@@ -30,8 +30,10 @@ Le village est physiquement divisé en 5 quartiers : L'Hôtel de Ville, L'Auberg
 ## 3. LES FACTIONS ET CONDITIONS DE VICTOIRE
 
 * Le Village : Remporte la partie si tous les Loups-Garous et la Secte Occulte sont éliminés. Ils ne connaissent le camp ou le rôle de personne par défaut, dans la vue du village ils voient seulement les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur pseudo secret en dessous.
-* Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 25% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 25% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur prénom et pseudo secret en dessous.
+* Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 25% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 25% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur prénom en dessous.
 * La Secte Occulte : Remporte la partie si elle élimine les Loups-Garous ET s'empare de la Mairie (le Maire doit faire partie de la Secte) tout en conservant un leader (Meneur de secte ou Occultiste) en vie. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
+
+Une partie peut se finir avant les 8 nuits maximum prévu par le jeu, si tous loups sont mort, ou si tous les villageois et occultes sont morts.
 
 ### Mécanique de Conversion Occulte
 
@@ -65,13 +67,13 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 ### LA PETITE FILLE (Nuit 1)
 
 * Variante Village : Les nuits impaires, elle espionne et découvre le pseudo d'un Loup-Garou. Une fois par partie, le jour, elle peut faire glisser un mot anonyme au Maire désignant 1 à 3 pseudos suspects qu'elle choisit.
-* Variante Loup-Garou (L'Assassin) : Les nuits paires, elle peut agir en loup solitaire et assassiner un joueur supplémentaire dans le quartier de son choix. Elle peut aussi glisser un mot au Maire pour brouiller les pistes.
+* Variante Loup-Garou (L'Assassin) : À partir de la nuit 5, elle peut agir en loup solitaire chaque nuit et assassiner un joueur supplémentaire dans le quartier de son choix. Avant la nuit 5, ce pouvoir est inactif. Elle peut aussi glisser un mot au Maire pour brouiller les pistes (1 fois par partie).
 * Variante Occulte : Lors de son espionnage nocturne, elle découvre non seulement le pseudo d'un loup, mais aussi son rôle exact.
 
 ### LE VAUDOU (Nuit 1)
 
 * Variante Village : Sonde l'âme de 2 joueurs. Au matin, il apprend si au moins un Loup-Garou se cache parmi eux (sans savoir lequel). Possède 3 charges.
-* Variante Loup-Garou : N'est pas un loup-garou, donc il est vu comme villzgeois et n'attaque pas avec la meute, mais a toutes les informations comme si c'était un loup-garou et joue avec eux et n'as pas assez au chat des Loups-garous. Prépare un rituel de corruption (2 charges). Si la meute tente de tuer un joueur cette nuit-là, la victime est sauvée par le rituel et rejoint instantanément la meute des Loups-Garous, gardant son rôle intact. Le Vaudou Loup-Garou perd son pouvoir s'il reste le dernier loup en vie et se transforme lui-même en Loup-Garou.
+* Variante Loup-Garou : N'est pas un loup-garou, donc il est vu comme villageois et n'attaque pas avec la meute, mais a toutes les informations comme si c'était un loup-garou et joue avec eux et n'as pas assez au chat des Loups-garous. Prépare un rituel de corruption (2 charges). Si la meute tente de tuer un joueur cette nuit-là, la victime est sauvée par le rituel et rejoint instantanément la meute des Loups-Garous, gardant son rôle intact. Le Vaudou Loup-Garou perd son pouvoir s'il reste le dernier loup en vie et se transforme lui-même en Loup-Garou.
 * Variante Occulte : Son pouvoir de sondage est amplifié, il peut choisir de sonder jusqu'à 3 joueurs à la fois au lieu de 2 et gagne une charge supplémentaire.
 
 ### LE GARDE (Nuit 1)
@@ -83,7 +85,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 ### L'ENQUÊTEUR (Nuit 1)
 
 * Variante Village & Loup-Garou : Mène une seule enquête par nuit (Découvrir l'identité réelle d'un pseudo, découvrir le pseudo secret d'un joueur, ou trouver qui partage le même rôle qu'une cible (disponible à partir de 30 joueurs)).
-* Variante Loup/Occulte (Le Faussaire) : Peut cibler un joueur pour maquiller son aura. Un innocent apparaîtra comme Loup, et inversement, face aux autres rôles d'information. Il lui attribue également un faux pseudo jusqu'a la prochaine nuit. L'illusion ne fonctionne pas à l'autopsie matinale.
+* Variante Loup/Occulte (Le Faussaire) : Peut cibler un joueur pour maquiller son aura. Un innocent apparaîtra comme Loup, et inversement, face aux autres rôles d'information. Il lui attribue également un faux pseudo jusqu'a la prochaine nuit.
 * Variante Occulte : Son efficacité est doublée, il peut mener jusqu'à deux enquêtes par nuit.
 
 ### LE VAGABOND (Nuit 1)
@@ -111,14 +113,37 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 * Variante Village & Loup-Garou : Lie deux joueurs par un amour inconditionnel (2 couples maximum par partie). Si l'un des amoureux meurt, l'autre se suicide de chagrin. Si un Villageois et un Loup-Garou tombent amoureux, le couple entier rejoint le camp des Loups-Garous. (En variante loup, il doit obligatoirement y avoir un loup parmis les amoureux)
 * Variante Occulte : En plus de son lier deux joueurs comme la variante villageoise, elle obtient le rôle de l'un des amoureux sans savoir lequel.
 
+### L'EMBAUMEUR (Nuit 1)
+
+* Variante Village & Loup-Garou : Chaque nuit, si des joueurs meurent sans avoir utilisé toutes leurs capacités (tirs de chasseur restants, potions de sorcière, charges de Vaudou, etc.), l'Embaumeur récupère ces pouvoirs non utilisés. Il peut les dépenser les nuits suivantes exactement comme si c'était son propre rôle. Il agit en "prêtant sa voix" aux morts pour que leurs pouvoirs ne soient pas perdus.
+* Variante Occulte : Il peut cumuler les actions des morts des deux derniers lynchages, si une des actions a été utilisé il n'aura plus la disponibilité de l'utiliser.
+* Camp de l'Embaumeur et version des actions : L'Embaumeur utilise toujours la version des actions correspondant à SON propre camp, indépendamment du camp du mort dont il récupère le pouvoir. Un Embaumeur Villageois obtient la version villageoise (ex : Chasseur VIL, Sorcière poison), un Embaumeur Loup-Garou obtient la version loup (ex : Chasseur LG, Sorcière paralysie), un Embaumeur Occulte obtient la version occulte de chaque rôle (avec tous ses bonus OCC associés). Le camp du mort n'influence jamais la version du pouvoir transmis.
+
+### LE MÉDECIN LÉGISTE (Nuit 1)
+
+* Variante Village & Loup-Garou : Chaque nuit, il peut autopsier un joueur déjà mort. Il obtient alors en privé le rapport complet : pseudo secret, rôle exact, camp et le quartier d'où provenait son meurtrier. Si deux médecins légistes autopsient le même corps, ils apprennent l'un l'autre leur existence.
+* Variante Loup-Garou : En plus du rapport standard, il obtient la liste de toutes les cibles que le mort a visées au cours de la partie.
+* Variante Occulte : En plus du rapport standard, il obtient le rôle exact du meurtrier (et pas seulement son quartier d'origine).
+
+### LE FOSSOYEUR (Nuit 1)
+
+* Variante Village & Loup-Garou : Chaque nuit (phase 1), il choisit un joueur mort qui n'a pas encore été réveillé. À la fin de la nuit 1, ce mort est "éveillé" temporairement : il reçoit un message dans son journal lui proposant deux choix pour la nuit 2 : (a) utiliser son pouvoir de rôle une dernière fois, ou (b) voter de façon posthume lors du prochain lynchage.
+  - Le mort réveillé utilise SON choix pendant la nuit 2 (son bouton Vote ou Action s'illumine d'un halo rouge néon).
+  - S'il choisit le "Vote Posthume", son vote est enregistré discrètement et comptabilisé lors du prochain lynchage du village (affiché avec le label "Vote posthume" dans la liste des votants).
+  - S'il choisit son action de rôle, il l'exécute normalement et l'effet s'applique.
+  - Un mort ne peut être éveillé qu'une seule fois par partie.
+  - Si deux Fossoyeurs ciblent le même mort la même nuit, le mort est tout de même réveillé normalement.
+  - Si le Légiste, le Fossoyeur ou l'Embaumeur travaillent sur le même cadavre la même nuit, chacun d'eux apprend dans son journal quels autres rôles ont également agi sur ce corps.
+* Variante Occulte : En plus de tout ce qui précède, le Fossoyeur apprend dans son journal le rôle exact et le camp du mort qu'il vient de réveiller.
+
 ### LE CRIEUR (Aucune action, seulement une passive)
 
-* Variante Village : Rôle obtenu dynamiquement. Si le village compte au moins 13 joueurs, le premier innocent tué par les Loups-Garous survit miraculeusement. Il perd son ancien rôle et devient le Crieur. Tant qu'il est en vie, le journal du village affichera la cause exacte de toutes les morts nocturnes (Tir de chasseur, potion, sacrifice, etc.).
+* Variante Village : Rôle obtenu dynamiquement. Si le village compte au moins 13 joueurs, le premier innocent tué par les Loups-Garous survit miraculeusement. Il perd son ancien rôle et devient le Crieur. Tant qu'il est en vie, il reçoit en privé (journal personnel) les causes exactes de toutes les morts nocturnes (Tir de chasseur, potion, sacrifice, etc.). Le reste du village ne voit que l'annonce standard sans détail de la cause.
 
 ### LES RÔLES EXCLUSIFS (SECTE)
 
 * Le Meneur de Secte : (Nuit 1)
-Ne peut être ciblé par aucune enquête ni repéré par le Vagabond ou le Guetteur (il révèle un guetteur). Chaque nuit, il distribue 2 jetons de conversion. Il peut également sacrifier (tuer) un joueur au hasard (priorité sans jeton et les loups et occultes ne peuvebt pas être sacrifié) dans le quartier de son choix pour honorer la Secte.
+Ne peut être ciblé par aucune enquête ni repéré par le Vagabond ou le Guetteur (il révèle un guetteur). Chaque nuit, il distribue 2 jetons de conversion. Il peut également sacrifier (tuer) un joueur au hasard (priorité sans jeton et les loups et occultes ne peuvent pas être sacrifié) dans le quartier de son choix pour honorer la Secte.
 * L'Occultiste : (Nuit 1)
 C'est le bras droit de la Secte. Chaque nuit, il distribue 1 jeton de conversion. C'est une amélioration du camp occulte, il garde toujours son rôle de base en plus d'être occultiste.
 
@@ -127,7 +152,7 @@ C'est le bras droit de la Secte. Chaque nuit, il distribue 1 jeton de conversion
 Le Maire est élu au Jour 1. C'est un statut qui se superpose au rôle de base.
 Pouvoirs de jour : (lynchage)
 
-* Il peut instaurer une Motion pour modifier les lois de la journée :
+* Il peut instaurer une Motion pour modifier les lois de la journée, chaque motion est utilisable une seule fois par partie:
 Les Motions du Maire :
 
 🏛️ Discipline de vote : Le lynchage se déroulera obligatoirement en deux tours. Au second tour, le village ne pourra voter que pour départager les joueurs arrivés en tête au premier tour (les finalistes).
@@ -139,6 +164,9 @@ Les Motions du Maire :
 🏛️ Quorum démocratique : Pour qu'une exécution soit validée aujourd'hui, il faut qu'au moins 85% des joueurs encore en vie participent au vote. S'il y a trop d'abstentions (spectateurs exclus), le vote est annulé et personne ne meurt.
 
 🏛️ Priorité à la défense : Le joueur qui arrive en deuxième position lors du lynchage d'aujourd'hui (celui qui a failli mourir) obtient une immunité : il ne pourra pas être condamné par le vote du village le lendemain.
+
+🏛 Recensement des loups : Après l'exécution du jour, le nombre exact de Loups-Garous encore en vie est annoncé publiquement.
+
 * Il est le destinataire exclusif des mots anonymes de la Petite Fille.
 Si le Maire meurt, il désigne son successeur dans son dernier souffle.
 
@@ -156,7 +184,7 @@ Si le Maire meurt, il désigne son successeur dans son dernier souffle.
 
 ## 6. Label état
 
-Blessé : Un joueur blessé ne pourra pas voter ni effectué son action, cette état dure 1 jour (du debut du jour jusqu'a la fin de la nuit 2eme phase) de l'aube à l'aube. Un vagabond blessé n'aura pas les informtions du quartier le matin, et n'intercepte pas les attaques des loups. Un garde blessé ne participe au combat contre les attaques des loups dans le quartier où il est.
+Blessé : Un joueur blessé ne pourra pas voter ni effectué son action, cette état dure 1 jour (du debut du jour jusqu'a la fin de la nuit 2eme phase) de l'aube à l'aube. Un vagabond blessé n'aura pas les informations du quartier le matin, et n'intercepte pas les attaques des loups. Un garde blessé ne participe au combat contre les attaques des loups dans le quartier où il est.
 
 Lié : Les joueurs lié seront amoureux au début du jour, si un des joueur meurt pendant la liaison avant le jour, alors ce lien est brisé et rien ne se passe.
 
@@ -168,12 +196,15 @@ Repenti : Un chasseur villageois qui blesse un villageois se repenti et s'interd
 
 Journal : C'est ici que les joueurs reçeverons leurs informations d'actions, les annonces du jeu, changement de phase, annonce des morts, les informations publique et privée, les informations privée sont marqué d'une petite étoile. Se situe sur l'écran principal en haut.
 
-Chat publique : Tous les joueurs peuvent communiquer depuis le chat publique qui se situe sur l'écran principal en haut 
+Chat publique : Tous les joueurs peuvent communiquer depuis le chat publique qui se situe sur l'écran principal en haut.
+Les joueurs se voient parler avec leur prénom affiché.
 
 Il existe des chat secret où certains groupes peuvent s'ecrire :
 
-Chat des Loups : Tous les Loups-Garous peuvent voir et écrire dans ce chat, hormis le vaudou Loup-garou qui n'est pas un Loup-garou, mais un villageois au service des loups. Se situe dans le profil.
-Chat des occultes : Tous les joueurs du camp des occultes peuvent parler dans ce chat. Se situe dans le profil.
+Chat des Loups : Tous les Loups-Garous peuvent voir et écrire dans ce chat, hormis le vaudou Loup-garou qui n'est pas un Loup-garou, mais un villageois au service des loups. Se situe dans le profil. Les joueurs se voient parler avec leur pseudo secret affiché.
+Chat des occultes : Tous les joueurs du camp des occultes peuvent parler dans ce chat. Se situe dans le profil. Les joueurs se voient parler avec leur pseudo secret affiché.
+Chat des gardes : Tous les joueurs ayant le rôle de garde peuvent parler dans ce chat. Se situe dans le profil. Les joueurs se voient parler avec leur pseudo secret affiché.
+Chat des morts : Tous les joueurs morts peuvent parler dans ce chat. Se situe dans le profil. Les joueurs se voient parler avec leur prénom affiché.
 
 ## 8. informations et paramètres
 

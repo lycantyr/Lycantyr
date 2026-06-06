@@ -117,6 +117,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 
 * Variante Village & Loup-Garou : Chaque nuit, si des joueurs meurent sans avoir utilisé toutes leurs capacités (tirs de chasseur restants, potions de sorcière, charges de Vaudou, etc.), l'Embaumeur récupère ces pouvoirs non utilisés. Il peut les dépenser les nuits suivantes exactement comme si c'était son propre rôle. Il agit en "prêtant sa voix" aux morts pour que leurs pouvoirs ne soient pas perdus.
 * Variante Occulte : Il peut cumuler les actions des morts des deux derniers lynchages, si une des actions a été utilisé il n'aura plus la disponibilité de l'utiliser.
+* Camp de l'Embaumeur et version des actions : L'Embaumeur utilise toujours la version des actions correspondant à SON propre camp, indépendamment du camp du mort dont il récupère le pouvoir. Un Embaumeur Villageois obtient la version villageoise (ex : Chasseur VIL, Sorcière poison), un Embaumeur Loup-Garou obtient la version loup (ex : Chasseur LG, Sorcière paralysie), un Embaumeur Occulte obtient la version occulte de chaque rôle (avec tous ses bonus OCC associés). Le camp du mort n'influence jamais la version du pouvoir transmis.
 
 ### LE MÉDECIN LÉGISTE (Nuit 1)
 
@@ -133,7 +134,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
   - Un mort ne peut être éveillé qu'une seule fois par partie.
   - Si deux Fossoyeurs ciblent le même mort la même nuit, le mort est tout de même réveillé normalement.
   - Si le Légiste, le Fossoyeur ou l'Embaumeur travaillent sur le même cadavre la même nuit, chacun d'eux apprend dans son journal quels autres rôles ont également agi sur ce corps.
-* Variante Occulte : En plus de tout ce qui précède, le mort réveillé apprend dans son journal le rôle exact et le camp du Fossoyeur qui l'a éveillé.
+* Variante Occulte : En plus de tout ce qui précède, le Fossoyeur apprend dans son journal le rôle exact et le camp du mort qu'il vient de réveiller.
 
 ### LE CRIEUR (Aucune action, seulement une passive)
 
