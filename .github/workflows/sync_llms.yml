@@ -26,7 +26,7 @@ jobs:
       - name: Push rules to itch.io
         uses: josephbmanley/butler-publish-itchio-action@master
         env:
-          BUTLER_CREDENTIALS: ${{ A0Gnp5U9lnJK090n9mfDiu9CnhUicxxlUOxbBokn.BUTLER_API_KEY }}
+          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
           CHANNEL: documentation
           ITCH_GAME: lycantyr
           ITCH_USER: lycantyr
