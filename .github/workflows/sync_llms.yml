@@ -29,5 +29,5 @@ jobs:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
           CHANNEL: documentation
           ITCH_GAME: lycantyr
-          ITCH_USER: adonisperbet-del
+          ITCH_USER: lycantyr
           PACKAGE: llms.txt
