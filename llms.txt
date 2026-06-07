@@ -136,6 +136,30 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
   - Si le Légiste, le Fossoyeur ou l'Embaumeur travaillent sur le même cadavre la même nuit, chacun d'eux apprend dans son journal quels autres rôles ont également agi sur ce corps.
 * Variante Occulte : En plus de tout ce qui précède, le Fossoyeur apprend dans son journal le rôle exact et le camp du mort qu'il vient de réveiller.
 
+### LE BOURREAU (Nuit 1 — une fois par partie)
+
+* Variante Village & Loup-Garou : Chaque début de nuit (phase 1), le Bourreau reçoit dans son journal personnel le prénom du joueur ayant reçu le plus de votes lors du dernier lynchage du village sans avoir été lynché (typiquement le 2e plus voté). Il peut alors décider d'exécuter secrètement cette personne durant la nuit.
+  - Si plusieurs joueurs sont à égalité de votes en tête des non-lynchés, le Bourreau choisit parmi eux qui exécuter.
+  - L'exécution n'est pas soignable par la Sorcière (victim_can_be_healed: false).
+  - Le Forgeron peut bloquer l'exécution si la cible est protégée.
+  - Il peut ignorer cette nuit sans utiliser son pouvoir. Une fois utilisé, le pouvoir disparaît définitivement (bourreau_used: true sur le doc joueur).
+  - L'exécution s'applique même s'il y a eu une motion de non-lynchage (les votes sont quand même pris en compte).
+* Variante Occulte : En plus de tout ce qui précède, si le Bourreau exécute quelqu'un, il apprend dans son journal le rôle exact de la victime.
+* Données backend : game.bourreau_candidates = tableau d'IDs des cibles potentielles (mis à jour dans resolveDayVotes), player.bourreau_used = true après utilisation.
+* L'Embaumeur peut récupérer le pouvoir du Bourreau s'il est lynché (tant que bourreau_used !== true).
+
+### LE TRAQUEUR DES RUELLES (Nuit 1 — chaque nuit)
+
+* Variante Village & Loup-Garou : Chaque nuit (phase 1), le Traqueur envoie ses rats dans un quartier de son choix (même sélecteur que Vagabond/Garde/Politicien). À la fin de la nuit phase 2, il reçoit un rapport dans son journal personnel indiquant quels joueurs présents dans ce quartier ont utilisé une action nocturne (phase 1 uniquement).
+  - Il voit uniquement le pseudo secret de chaque joueur actif, pas le type d'action.
+  - Seules les actions Firestore de nuit phase 1 sont comptabilisées (pas les attaques des loups depuis le RTDB, pas les actions du jour, pas les actions annulées par le Forgeron — resolved_effective: true requis).
+  - Si aucun joueur n'a agi dans le quartier ciblé, il reçoit un message "Aucun joueur présent dans ce quartier n'a effectué d'action cette nuit."
+  - Le Forgeron peut bloquer l'envoi des rats (resolved_effective: false).
+  - Résultat au step morningStep (day_election au jour 1, day_lynch ensuite).
+  - Utilisable chaque nuit (pas de limite par partie).
+* Variante Occulte : En plus de tout ce qui précède, pour chaque joueur actif dans le quartier ciblé, le Traqueur apprend sur qui (pseudo secret) ou dans quel quartier l'action a été effectuée.
+* L'Embaumeur peut récupérer le pouvoir du Traqueur s'il est lynché.
+
 ### LE CRIEUR (Aucune action, seulement une passive)
 
 * Variante Village : Rôle obtenu dynamiquement. Si le village compte au moins 13 joueurs, le premier innocent tué par les Loups-Garous survit miraculeusement. Il perd son ancien rôle et devient le Crieur. Tant qu'il est en vie, il reçoit en privé (journal personnel) les causes exactes de toutes les morts nocturnes (Tir de chasseur, potion, sacrifice, etc.). Le reste du village ne voit que l'annonce standard sans détail de la cause.
