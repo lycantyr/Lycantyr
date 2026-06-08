@@ -164,6 +164,23 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 
 * Variante Village : Rôle obtenu dynamiquement. Si le village compte au moins 13 joueurs, le premier innocent tué par les Loups-Garous survit miraculeusement. Il perd son ancien rôle et devient le Crieur. Tant qu'il est en vie, il reçoit en privé (journal personnel) les causes exactes de toutes les morts nocturnes (Tir de chasseur, potion, sacrifice, etc.). Le reste du village ne voit que l'annonce standard sans détail de la cause.
 
+### LE MAÎTRE DES CORBEAUX (Nuit 1)
+
+* Variante Village & Loup-Garou : Une fois par partie, la nuit, il désigne secrètement un joueur en lui posant un corbeau. Le joueur marqué est exclu du vote de lynchage normal. À la place, un vote spécial "Vote corbeau" est ouvert à tout le village pendant la phase de lynchage : si strictement plus de la moitié des joueurs vivants (spectateurs exclus) votent contre lui, le porteur du corbeau est exécuté. Sinon, le corbeau est retiré et rien ne se passe. La présence du corbeau est annoncée publiquement (label 🦅 visible sur la carte du joueur) et inscrite dans le journal de groupe dès la nuit suivante. Le joueur portant le corbeau n'est pas grisé lors d'un second tour de lynchage et peut tout de même être ciblé. Le Maître des Corbeaux lui-même vote avec le bouton "Voter contre le corbeau" comme les autres.
+* Variante Occulte : Son corbeau invisible pèse plus lourd — son propre vote corbeau compte double (il apporte 1 vote bonus automatique au total des votes corbeau), augmentant la pression sur la cible.
+
+### LE CONFESSEUR (Nuit 1 & Nuit 2)
+
+* Variante Village & Loup-Garou : 3 charges par partie. La nuit (phase 1), il cible secrètement un joueur pour "confesser" ses liens cachés. Le backend lit et stocke si la cible est amoureuse (lover_id), bénie (is_blessed) ou porteuse de jetons occultes (occultTokenCount). En phase 2, le Confesseur reçoit ces informations et peut choisir de briser UNE seule chose parmi les liens détectés :
+  - Briser le lien amoureux : unilatéral (seul le lover_id de la cible est supprimé, pas celui de l'autre amoureux). Attention : si le couple est inter-camp loup/village, l'amour résiste — la charge est quand même consommée.
+  - Retirer la bénédiction : la cible n'est plus protégée contre les conversions occultes (is_blessed → false).
+  - Purifier les jetons occultes : tous les jetons occultes de la cible sont retirés (occultTokenCount → 0).
+  - Si le Confesseur ne brise rien en phase 2, aucune charge n'est consommée.
+  - La cible est notifiée dans son journal personnel au matin uniquement si un lien a réellement été brisé (le Prêtre, la Musicienne et le Meneur ne sont PAS notifiés).
+  - Si la cible meurt entre la phase 1 et la phase 2 (victime des loups), le Confesseur peut quand même agir dessus en phase 2 (elle est encore victime).
+  - Un couple inter-camp loup/village révèle dans le journal de l'acteur que l'amour a résisté (mais consomme la charge).
+* Variante Occulte : 4 charges au lieu de 3.
+
 ### LES RÔLES EXCLUSIFS (SECTE)
 
 * Le Meneur de Secte : (Nuit 1)
@@ -256,11 +273,19 @@ Pour créer une partie personnalisée il faut cliqué sur "Partie personnalisée
 Pour inviter des amis tu cliques sur "partager", ils peuvent se connecter et ils atterriront directement dans le lobby de la partie.
 Tu peux décider de joueur toi aussi au jeu en cliquant sur jouer à côté de ton prénom, mais si tu souhaites expliquer le jeu à de nouveaux joueur il est préferable de resté en spectateur et en tant que MJ tu peuw nommer des Co-MJ pour t'aider à gérer la partie.
 Lorsque tous tes amis sont dans la partie tu peux lancer la partie et tu peux choisir plusieurs mode de jeu :
-Débutant : Rôle simple, aucun doublon de rôle, les loups n'ont pas de rôle.
-Classique : Tous les rôles, aucun doublon de rôle,les loups n'ont pas de rôle.
-Initié : Rôle qui fonctionnent avec la mécanique des pseudos secrets ajouté, aucun doublon de rôle, les loups possèdent des rôles.
-Confirmé : Tous les rôles, doublons de rôles et les loups possèdent des rôles.
+Classique : Aucun doublon de rôle, les loups n'ont pas de rôle spécial (LG Standard). Seuls les villageois reçoivent des rôles spéciaux.
+Confirmé : Aucun doublon de rôle, les loups possèdent également des rôles spéciaux (variante loup du rôle).
 
 On peut aussi chosir l'horloge de jeu, il y a 2 styles.
 Manuel : Déclenché par les joueurs ou le MJ
 Automatique : Système de jeu sur 24h pendant 7 jours, où 1 jour dans le jeu est un vrai jour IRL.
+
+## 10. Version et disponibilité des rôles
+
+Lycantyr est actuellement en version Alpha Test. La Bêta Test sera disponible le 21 juin.
+
+Tous les rôles décrits dans ce document ne sont pas encore disponibles dans la version actuelle du jeu. Seuls les rôles intégrés à la distribution de parties sont jouables en v1 :
+- Disponibles en v1 : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Médecin Légiste, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
+- En cours d'intégration (pas encore disponibles) : Fossoyeur, Politicien, Prêtre, Embaumeur, Garde, Tavernier, Maître des Corbeaux, Confesseur, Meneur de Secte, Occultiste.
+
+Les rôles non disponibles seront intégrés progressivement au fur et à mesure des mises à jour après la sortie définitive du jeu.
