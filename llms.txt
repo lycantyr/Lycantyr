@@ -258,14 +258,20 @@ Déroulement du jeu : Explication du fonctionnement des phases de jeu.
 Mécaniques : Explication des mécaniques de jeu tel que les quartiers et les pseudos secret.
 
 Paramètres :
-Profil : profil du joueur, à ne pas confondre avec le profil en jeu. Statistiques de victoire défaite, Elo en partie ranked du joueur, changer de prénom, lier son compte à google ou à discord. Déconnexion et suppression du compte.
-Gérer les notifications : Affiche un modal pour activer les notifications, et bouton interrupteur pour choisir le type de notifications : changement de phase, chat, journal.
+Profil : profil du joueur, à ne pas confondre avec le profil en jeu. Statistiques de victoire défaite, Elo en partie ranked du joueur, changer de prénom, lier son compte à google ou à discord. Déconnexion et suppression du compte. Contient également les préférences Interface et Notifications (voir "Paramètres supplémentaire en partie").
 Nous contacter : Affiche un modal qui permet à l'utilisateur d'envoyer un message directement au créateur du jeu. Bouton qui permet de rejoinde le discord de Lycantyr.
 Régles du jeu : ça nous envoie sur les rules
 Confidentialité (RGPD) : Renvoi vers les RGPD.
 
 Paramètres supplémentaire en partie :
-Affichage des cartes par lignes : le joueur adapte son affichage, une carte représente 1 joueur. il peut choisir 2 à 5 cartes par ligne. C'est avec ces cartes qu'il va interagir pour les votes et ses actions.
+Le bouton ⚙️ en haut à droite de l'écran en partie ouvre le panneau de paramètres de jeu (options MJ). Les préférences personnelles (Interface et Notifications) sont accessibles depuis le profil du joueur.
+
+Interface (dans le profil) :
+Taille de l'interface : slider de 90 % à 150 %, appliqué instantanément et sauvegardé.
+Affichage des cartes par ligne : le joueur adapte son affichage en choisissant 2 à 5 cartes par ligne. Une carte représente 1 joueur. C'est avec ces cartes qu'il interagit pour les votes et ses actions.
+
+Notifications (dans le profil) :
+Activer ou désactiver les notifications push sur l'appareil courant. Interrupteurs par catégorie : changement de phase, nouveaux messages (chat), nouvelles entrées (journal).
 
 ## 9. Création de partie
 
@@ -273,8 +279,22 @@ Pour créer une partie personnalisée il faut cliqué sur "Partie personnalisée
 Pour inviter des amis tu cliques sur "partager", ils peuvent se connecter et ils atterriront directement dans le lobby de la partie.
 Tu peux décider de joueur toi aussi au jeu en cliquant sur jouer à côté de ton prénom, mais si tu souhaites expliquer le jeu à de nouveaux joueur il est préferable de resté en spectateur et en tant que MJ tu peuw nommer des Co-MJ pour t'aider à gérer la partie.
 Lorsque tous tes amis sont dans la partie tu peux lancer la partie et tu peux choisir plusieurs mode de jeu :
-Classique : Aucun doublon de rôle, les loups n'ont pas de rôle spécial (LG Standard). Seuls les villageois reçoivent des rôles spéciaux.
-Confirmé : Aucun doublon de rôle, les loups possèdent également des rôles spéciaux (variante loup du rôle).
+Classique : Les loups n'ont pas de rôle spécial (LG Standard). Seuls les villageois reçoivent des rôles spéciaux.
+Confirmé : Les loups possèdent également des rôles spéciaux (variante loup du rôle).
+
+Configuration des rôles — deux modes sélectionnables :
+
+Mode Intelligent (par défaut) :
+Tous les rôles sont inclus par défaut ; le MJ peut décocher ceux qu'il veut exclure. Un toggle permet de choisir entre "Sans doublon" (chaque rôle présent une seule fois) et "Avec doublon" (le système ajoute automatiquement des copies supplémentaires selon le nombre de joueurs au lancement, dans l'ordre de priorité suivant : Médecin Légiste, Enquêteur, Traqueur, Vagabond, Guetteur, Forgeron, Musicienne, Bourreau, Sorcière, Chasseur, Vaudou, Petite Fille). Le calcul n'est effectué qu'au moment du lancement, lorsque le nombre de joueurs est connu.
+
+Mode Manuel :
+Le MJ ajuste manuellement la quantité de chaque rôle avec [−] N [+]. Valeur par défaut : 1. Valeur 0 = rôle exclu. Maximum 10 par rôle.
+
+Règle commune aux deux modes — restriction des doublons pour les loups :
+En mode Confirmé, les rôles Médecin Légiste, Vaudou et Petite Fille ne peuvent pas voir leur 2ème exemplaire (ou plus) attribué à un loup-garou. Si un loup devait recevoir un doublon de l'un de ces rôles, l'algorithme lui attribue à la place le prochain rôle disponible non restreint. Cette règle s'applique aussi aux nouvelles entrées en cours de partie. En mode Manuel, ces rôles ne sont pas prioritaires pour les loups et ne leur sont attribués en doublon qu'en dernier recours (si aucun autre rôle n'est disponible).
+
+Construction du pool :
+Chaque rôle est répété autant de fois que sa valeur dans le pool, puis le pool est mélangé aléatoirement. Les rôles sont distribués séquentiellement aux joueurs. Si le nombre de joueurs est inférieur à la taille du pool, les entrées en surplus ne sont pas utilisées — les doublons non consommés sont ignorés naturellement.
 
 On peut aussi chosir l'horloge de jeu, il y a 2 styles.
 Manuel : Déclenché par les joueurs ou le MJ
