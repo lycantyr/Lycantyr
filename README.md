@@ -31,9 +31,9 @@ Le village est physiquement divisé en 5 quartiers : L'Hôtel de Ville, L'Auberg
 
 * Le Village : Remporte la partie si tous les Loups-Garous et la Secte Occulte sont éliminés. Ils ne connaissent le camp ou le rôle de personne par défaut, dans la vue du village ils voient seulement les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur pseudo secret en dessous.
 * Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 25% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 25% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur prénom en dessous.
-* La Secte Occulte : Remporte la partie si elle élimine les Loups-Garous ET s'empare de la Mairie (le Maire doit faire partie de la Secte) tout en conservant un leader (Meneur de secte ou Occultiste) en vie. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
+* La Secte Occulte : Remporte la partie si — (1) ses membres sont plus nombreux que les Loups-Garous en vie, (2) un leader de la Secte est en vie (Occultiste ou Meneur de Secte), (3) le Maire est un membre de la Secte. Si tous les Loups sont éliminés, la condition de majorité disparaît : un leader en vie et le Maire Occulte suffisent à l'emporter. Sans leader en vie, le Village gagne même si le Maire est Occulte. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
 
-Une partie peut se finir avant les 8 nuits maximum prévu par le jeu, si tous loups sont mort, ou si tous les villageois et occultes sont morts.
+Une partie peut se terminer avant les 8 nuits maximum dans deux cas : tous les Loups sont morts, ou tous les Villageois et Occultes sont morts. À la fin de la 8ème nuit, les conditions de victoire proportionnelles s'appliquent.
 
 ### Mécanique de Conversion Occulte
 
@@ -51,7 +51,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 
 * Variante Village : Possède 1 Potion de Mort (utilisable en première partie de nuit) et 1 Potion de Vie (utilisable en seconde partie de nuit sur la victime des Loups) pour toute la partie. Limitée à une potion par nuit.
 * Variante Loup-Garou : Sa potion de mort est remplacée par une Potion de Paralysie. La cible tombe dans un coma profond et est annoncée morte au village. Elle se réveillera publiquement 24h plus tard.
-* Variante Occulte : Reçoit définitivement une potion supplémentaire de son choix (Vie ou Mort/Paralysie).
+* Variante Occulte : Reçoit 1 charge de potion supplémentaire, utilisable au choix sur la potion de vie ou la potion offensive (mort ou paralysie selon la variante). 3 charges au total.
 
 ### LE CHASSEUR (Nuit 1)
 
@@ -61,7 +61,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 
 ### LE FORGERON (Nuit 1)
 
-* Variante Village & Loup-garou : Peut barricader la porte d'un joueur par nuit. La cible est protégée de toutes les attaques, mais ne peut utiliser aucun pouvoir cette nuit-là. S'il cible un Vagabond ou un Garde, au lieu de les bloquer, il les "arme" (ils deviennent surpuissants au combat, le vagabond compte comme un garde et le garde comme 2 gardes). Ne peut pas barricader le même joueur deux nuits de suite. Barricader/armer un loup ne lui procure aucun avantage lors des combat contre vagabond armé ou garde.
+* Variante Village & Loup-garou : Peut barricader la porte d'un joueur par nuit. La cible est protégée de toutes les attaques nocturnes (Meute, Chasseur, Meneur de Secte, Bourreau), mais ne peut utiliser aucun pouvoir cette nuit-là. La cible reçoit une notification. S'il cible un Vagabond ou un Garde, au lieu de les bloquer, il les "arme" (le Vagabond défend comme un Garde, le Garde compte comme 2 Gardes au combat). Le Forgeron peut se cibler lui-même : il est protégé sans être bloqué. Ne peut pas barricader le même joueur deux nuits de suite. Barricader/armer un loup ne lui procure aucun avantage lors des combats contre vagabond armé ou garde.
 * Variante Occulte : Débloque la capacité de barricader la même personne deux nuits de suite (utilisable une seule fois dans la partie).
 
 ### LA PETITE FILLE (Nuit 1)
@@ -73,8 +73,8 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 ### LE VAUDOU (Nuit 1)
 
 * Variante Village : Sonde l'âme de 2 joueurs. Au matin, il apprend si au moins un Loup-Garou se cache parmi eux (sans savoir lequel). Possède 3 charges.
-* Variante Loup-Garou : N'est pas un loup-garou, donc il est vu comme villageois et n'attaque pas avec la meute, mais a toutes les informations comme si c'était un loup-garou et joue avec eux et n'as pas assez au chat des Loups-garous. Prépare un rituel de corruption (2 charges). Si la meute tente de tuer un joueur cette nuit-là, la victime est sauvée par le rituel et rejoint instantanément la meute des Loups-Garous, gardant son rôle intact. Le Vaudou Loup-Garou perd son pouvoir s'il reste le dernier loup en vie et se transforme lui-même en Loup-Garou.
-* Variante Occulte : Son pouvoir de sondage est amplifié, il peut choisir de sonder jusqu'à 3 joueurs à la fois au lieu de 2 et gagne une charge supplémentaire.
+* Variante Loup-Garou : N'est pas un loup-garou, donc il est vu comme villageois et n'attaque pas avec la meute, mais a toutes les informations comme si c'était un loup-garou et joue avec eux et n'a pas accès au chat des Loups-garous. Prépare un rituel de corruption (2 charges). Si la meute tente de tuer un joueur cette nuit-là, la victime est sauvée par le rituel et rejoint instantanément la meute des Loups-Garous, gardant son rôle intact. La charge est toujours remboursée en cas d'échec : si la meute ne fait aucune victime, si la cible est bénie par le Prêtre, ou si la cible appartient à la Secte Occulte (immunisés à la corruption). Le Vaudou Loup-Garou perd son pouvoir s'il reste le dernier loup en vie et se transforme lui-même en Loup-Garou.
+* Variante Occulte : Son pouvoir de sondage est amplifié, il peut choisir de sonder jusqu'à 3 joueurs à la fois au lieu de 2 et possède 4 charges au lieu de 3.
 
 ### LE GARDE (Nuit 1)
 
@@ -85,7 +85,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 ### L'ENQUÊTEUR (Nuit 1)
 
 * Variante Village & Loup-Garou : Mène une seule enquête par nuit (Découvrir l'identité réelle d'un pseudo, découvrir le pseudo secret d'un joueur, ou trouver qui partage le même rôle qu'une cible (disponible à partir de 30 joueurs)).
-* Variante Loup/Occulte (Le Faussaire) : Peut cibler un joueur pour maquiller son aura. Un innocent apparaîtra comme Loup, et inversement, face aux autres rôles d'information. Il lui attribue également un faux pseudo jusqu'a la prochaine nuit.
+* Variante Loup/Occulte (Le Faussaire) : Peut cibler un joueur pour maquiller son aura. Un innocent apparaîtra comme Loup, et inversement, face aux autres rôles d'information. Il lui attribue également un faux pseudo jusqu'à la prochaine nuit. Les joueurs ayant reçu un résultat faussé en sont avertis le lendemain matin dans leur journal (sans savoir quelle cible était manipulée).
 * Variante Occulte : Son efficacité est doublée, il peut mener jusqu'à deux enquêtes par nuit.
 
 ### LE VAGABOND (Nuit 1)
@@ -215,7 +215,7 @@ Si le Maire meurt, il désigne son successeur dans son dernier souffle.
 
 1. Le Forgeron agit en premier. Une cible barricadée voit son action annulée (remboursée) et est immunisée aux autres actions. Arme garde et vagabond.
 2. Les changements de quartiers (Vagabond, Garde) s'appliquent.
-3. Les informations illusoires (Faussaire) s'appliquent avant toute vérification d'enquête.
+3. Les informations illusoires (Faussaire) s'appliquent avant toute vérification d'enquête. Les joueurs affectés reçoivent une correction générique le lendemain matin.
 4. Les meurtres (Chasseur, Petite Fille Assassin, Sorcière, Sacrifice, Loups-Garous) sont calculés simultanément.
 5. Les interceptions de combat (Vagabond Armé, Garde) s'appliquent sur les cibles des attaques.
 6. Les soins de la Sorcière ou du Vaudou-Loup peuvent sauver la victime finale des loups.
