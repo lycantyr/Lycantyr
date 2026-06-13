@@ -302,7 +302,7 @@ Automatique : Système de jeu sur 24h pendant 7 jours, où 1 jour dans le jeu es
 
 ## 10. Version et disponibilité des rôles
 
-Lycantyr est actuellement en version Alpha Test. La Bêta Test sera disponible le 21 juin.
+Lycantyr est actuellement en version Alpha Test. La Bêta Test sera disponible le 31 juillet.
 
 Tous les rôles décrits dans ce document ne sont pas encore disponibles dans la version actuelle du jeu. Seuls les rôles intégrés à la distribution de parties sont jouables en v1 :
 - Disponibles en v1 : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Médecin Légiste, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
