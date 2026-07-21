@@ -7,6 +7,7 @@ https://discord.gg/gGCuXGJuYM
 Lycantyr est un jeu de rôles cachés et de déduction sociale multijoueur en temps réel. Les joueurs discutent, enquêtent, votent et utilisent des pouvoirs pour faire gagner leur camp. Les morts continuent à jouer avec leur camp, en pouvant continuer a discuter et à débattre ensemble pour ajouter un vote au village, et certains rôles peuvent les utiliser.
 Dans Lycantyr n'importe quel rôle peut appartenir à n'importr quel camp. On peut vous dire "Je suis petite fille" ou "Je suis chasseur" et c'est vérifiable par certains rôles mais vous ne saurez pas à quel camp il appartient.
 Le jeu repose sur un anonymat strict : les joueurs agissent sous un "Pseudo Secret" la nuit et l'identité des rôles morts n'est jamais confirmée publiquement. L'inactivité est sanctionnée par une mort automatique (foudroyage).
+Tout le jeu se déroule exclusivement sur l'application : aucune action réalisée en dehors du jeu, dans la vraie vie, ne peut être retenue contre un joueur ni utilisée pour le discréditer ou l'accuser — seules les actions, votes et déclarations faites DANS l'application comptent. Tous les joueurs jouent en même temps, répartis sur des phases de jeu communes (jour, nuit) qui rythment la partie simultanément pour tout le monde.
 Il y a deux modes de jeu:
 Un en manuel où les joueurs peuvent passer la phase en cliquant sur un bouton (2min à partir du premier joueur qui clique et instantanné lorsque tous les joueurs ont cliqué).
 Un en mode automatique, c'est des parties qui peuvent s'organiser sur 7 jours. Une nuit dans la vraie vie, c'est une nuit dans le jeu. Et les joueurs peuvent parler, manipuler et élaborer des stratégie pendant toute une semaine entre amis, famille, collègue de travail.
@@ -30,10 +31,18 @@ Le village est physiquement divisé en 5 quartiers : L'Hôtel de Ville, L'Auberg
 ## 3. LES FACTIONS ET CONDITIONS DE VICTOIRE
 
 * Le Village : Remporte la partie si tous les Loups-Garous et la Secte Occulte sont éliminés. Ils ne connaissent le camp ou le rôle de personne par défaut, dans la vue du village ils voient seulement les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur pseudo secret en dessous.
-* Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 25% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 25% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur prénom en dessous.
+* Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 25% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 25% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs, avec leur prénom ET leur pseudo secret affichés l'un sous l'autre en dessous de la carte. Le Vaudou Loup-Garou ne bénéficie pas de cet avantage : comme les autres camps, il ne voit que le pseudo secret des joueurs dans les quartiers.
 * La Secte Occulte : Remporte la partie si — (1) ses membres sont plus nombreux que les Loups-Garous en vie, (2) un leader de la Secte est en vie (Occultiste ou Meneur de Secte), (3) le Maire est un membre de la Secte. Si tous les Loups sont éliminés, la condition de majorité disparaît : un leader en vie et le Maire Occulte suffisent à l'emporter. Sans leader en vie, le Village gagne même si le Maire est Occulte. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
 
 Une partie peut se terminer avant les 8 nuits maximum dans deux cas : tous les Loups sont morts, ou tous les Villageois et Occultes sont morts. À la fin de la 8ème nuit, les conditions de victoire proportionnelles s'appliquent.
+
+### Faux joueurs des quartiers (leurres)
+
+Dans chaque partie, quelle que soit sa taille, le serveur ajoute automatiquement de faux joueurs répartis aléatoirement parmi les quartiers déjà occupés par de vrais joueurs, dans le but de brouiller la piste. Leur nombre est égal au nombre de Loups-Garous distribués au début de la partie. Ces faux joueurs :
+* Possèdent un pseudo secret comme un vrai joueur, affiché dans la vue des quartiers — pour tous les camps, y compris les Loups (qui ne voient jamais de prénom pour eux, contrairement aux vrais joueurs, puisqu'ils n'ont pas d'identité réelle).
+* N'ont aucun rôle et ne sont affiliés à aucun camp réel : ils ne peuvent jamais être ciblés, attaqués, votés, ni comptés dans une condition de victoire ou une statistique de partie.
+* Ne sont pas cliquables : ce sont de simples cartes informatives dans la vue des quartiers.
+* N'apparaissent jamais dans la vue du village, uniquement dans la vue des quartiers.
 
 ### Mécanique de Conversion Occulte
 
