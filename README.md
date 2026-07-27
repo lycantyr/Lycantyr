@@ -207,9 +207,9 @@ Les Motions du Maire :
 
 🏛️ Discipline de vote : Le lynchage se déroulera obligatoirement en deux tours. Au second tour, le village ne pourra voter que pour départager les joueurs arrivés en tête au premier tour (les finalistes).
 
-🏛️ Ajournement procédural : Le vote du jour est purement et simplement annulé, personne ne meurt au bûcher. En contrepartie, le lendemain passera automatiquement en "État d'urgence" (2 morts) et le Maire ne pourra pas utiliser de nouvelle motion.
+🏛️ Ajournement procédural : Le vote du jour est purement et simplement annulé, personne ne meurt au bûcher. En contrepartie, le lendemain, les DEUX joueurs ayant reçu le plus de votes seront éliminés, et le Maire ne pourra pas utiliser de nouvelle motion. Attention : ce n'est PAS un État d'urgence — chaque joueur ne dispose que d'UNE seule voix ce jour-là, comme lors d'un lynchage normal ; ce sont simplement les deux plus votés qui meurent au lieu d'un seul.
 
-🏛️ État d'urgence : Le village est expéditif. Lors du lynchage d'aujourd'hui, les DEUX joueurs ayant reçu le plus de votes seront exécutés simultanément.
+🏛️ État d'urgence : Le village est expéditif. Lors du lynchage d'aujourd'hui, chaque joueur dispose de DEUX voix et doit voter contre DEUX joueurs DIFFÉRENTS (il ne peut pas mettre ses deux voix sur la même personne). Les deux joueurs ayant reçu le plus de votes sont exécutés simultanément. Si un second tour est nécessaire pour départager, il se déroule normalement, à une seule voix par joueur.
 
 🏛️ Quorum démocratique : Pour qu'une exécution soit validée aujourd'hui, il faut qu'au moins 85% des joueurs encore en vie participent au vote. S'il y a trop d'abstentions (spectateurs exclus), le vote est annulé et personne ne meurt.
 
@@ -219,6 +219,7 @@ Les Motions du Maire :
 
 * Il est le destinataire exclusif des mots anonymes de la Petite Fille.
 Si le Maire meurt, il désigne son successeur dans son dernier souffle.
+Écharpe orpheline : si le Maire meurt sans avoir transmis son écharpe avant le jour suivant, elle est attribuée automatiquement au matin à un joueur vivant n'ayant reçu aucun vote contre lui lors du lynchage précédent (ou celui qui en a reçu le moins). Les votes des deux tours de lynchage sont additionnés pour ce calcul, et le hasard tranche en cas d'égalité. L'attribution est annoncée publiquement dans le journal.
 
 ## 5. RÈGLES DE RÉSOLUTION ET PRIORITÉS NOCTURNES
 
@@ -239,6 +240,7 @@ Blessé : Un joueur blessé ne pourra pas voter ni effectué son action, cette �
 Lié : Les joueurs lié seront amoureux au début du jour, si un des joueur meurt pendant la liaison avant le jour, alors ce lien est brisé et rien ne se passe.
 
 Amoureux : Un joueur amoureux est lié d'amour avec son compagnon, si l'un des deux meurt, alors l'autre meurt aussi de chagrin. La potion paralysante ne provoque pas ce chagrin, l'autre amoureux garde espoir. Et si lun des joueur se fait foudroyer par AFK, alors le lien amoureux est brisé et ne prend pas effet.
+Révélation du couple : dès que l'un des deux amoureux meurt, le couple devient PUBLIC. Le label « Amoureux » s'affiche alors pour TOUS les joueurs sur les DEUX cartes, celle du mort comme celle de son compagnon. Avant cette première mort, seuls les amoureux eux-mêmes (et la Musicienne qui les a liés) voient ce label. Un lien rompu avant d'avoir pris effet (foudroyage AFK, Confesseur) n'est jamais révélé.
 
 Repenti : Un chasseur villageois qui blesse un villageois se repenti et s'interdit de voter la journée après son erreur de tir.
 
@@ -274,6 +276,7 @@ Confidentialité (RGPD) : Renvoi vers les RGPD.
 
 Paramètres supplémentaire en partie :
 Le bouton ⚙️ en haut à droite de l'écran en partie ouvre le panneau de paramètres de jeu (options MJ). Les préférences personnelles (Interface et Notifications) sont accessibles depuis le profil du joueur.
+Le MJ y dispose d'un bouton « Mettre fin à la partie » qui termine immédiatement la partie en cours. Les conditions de victoire sont alors calculées sur la situation du moment, exactement comme à la fin de la dernière nuit (règle proportionnelle des Loups-Garous), puis la page des scores s'affiche pour tous les joueurs. La partie compte comme une fin normale (Elo, statistiques et compteurs de parties sont appliqués). Ce bouton est accessible à tout MJ, quel que soit son niveau de progression.
 
 Interface (dans le profil) :
 Taille de l'interface : slider de 90 % à 150 %, appliqué instantanément et sauvegardé.
@@ -304,6 +307,9 @@ En mode Confirmé, les rôles Médecin Légiste, Vaudou et Petite Fille ne peuve
 
 Construction du pool :
 Chaque rôle est répété autant de fois que sa valeur dans le pool, puis le pool est mélangé aléatoirement. Les rôles sont distribués séquentiellement aux joueurs. Si le nombre de joueurs est inférieur à la taille du pool, les entrées en surplus ne sont pas utilisées — les doublons non consommés sont ignorés naturellement.
+
+Joueurs rejoignant une partie déjà en cours :
+Un joueur qui rejoint en cours de route reçoit lui aussi un vrai rôle, tiré parmi ceux que le MJ a activés au lancement (les rôles exclus ne peuvent jamais lui être attribués). Son camp est déterminé pour conserver la proportion de Loups-Garous de la partie. Le pool étant calibré sur le nombre de joueurs présents au lancement, il est déjà entièrement consommé à ce stade : le retardataire pioche alors parmi l'ensemble des rôles autorisés par le MJ, sans tenir compte des quotas déjà atteints. Il est installé dans un quartier DÉJÀ occupé (le moins peuplé d'entre eux), afin de respecter la règle d'au moins 2 joueurs par quartier.
 
 On peut aussi chosir l'horloge de jeu, il y a 2 styles.
 Manuel : Déclenché par les joueurs ou le MJ
