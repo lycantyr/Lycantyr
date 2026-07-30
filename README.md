@@ -160,13 +160,13 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 ### LE TRAQUEUR DES RUELLES (Nuit 1 — chaque nuit)
 
 * Variante Village & Loup-Garou : Chaque nuit (phase 1), le Traqueur envoie ses rats dans un quartier de son choix (même sélecteur que Vagabond/Garde/Politicien). À la fin de la nuit phase 2, il reçoit un rapport dans son journal personnel indiquant quels joueurs présents dans ce quartier ont utilisé une action nocturne (phase 1 uniquement).
-  - Il voit uniquement le pseudo secret de chaque joueur actif, pas le type d'action.
+  - Il voit le PRÉNOM de chaque joueur actif (et non son pseudo secret), mais pas le type d'action. Son rapport est donc directement exploitable dans le débat du village. Corollaire : le faux pseudo attribué par le Faussaire ne trompe pas le Traqueur, puisqu'il ne maquille que le pseudo secret et pas l'identité réelle.
   - Seules les actions Firestore de nuit phase 1 sont comptabilisées (pas les attaques des loups depuis le RTDB, pas les actions du jour, pas les actions annulées par le Forgeron — resolved_effective: true requis).
   - Si aucun joueur n'a agi dans le quartier ciblé, il reçoit un message "Aucun joueur présent dans ce quartier n'a effectué d'action cette nuit."
   - Le Forgeron peut bloquer l'envoi des rats (resolved_effective: false).
   - Résultat au step morningStep (day_election au jour 1, day_lynch ensuite).
   - Utilisable chaque nuit (pas de limite par partie).
-* Variante Occulte : En plus de tout ce qui précède, pour chaque joueur actif dans le quartier ciblé, le Traqueur apprend sur qui (pseudo secret) ou dans quel quartier l'action a été effectuée.
+* Variante Occulte : En plus de tout ce qui précède, pour chaque joueur actif dans le quartier ciblé, le Traqueur apprend sur qui (prénom) ou dans quel quartier l'action a été effectuée.
 * L'Embaumeur peut récupérer le pouvoir du Traqueur s'il est lynché.
 
 ### LE CRIEUR (Aucune action, seulement une passive)
@@ -231,7 +231,7 @@ Si le Maire meurt, il désigne son successeur dans son dernier souffle.
 6. Les soins de la Sorcière ou du Vaudou-Loup peuvent sauver la victime finale des loups.
 7. Les conversions occultes (Meneur, Occultiste, Vagabond occulte) sont appliquées sur les cibles survivantes.
 8. Les morts par chagrin d'amour se propagent en cascade.
-9. Révélation des votes de la veille.
+9. (Les votes ne sont plus révélés le lendemain : ils sont publics en direct pendant la journée, cf. section 7.)
 
 ## 6. Label état
 
@@ -247,6 +247,8 @@ Repenti : Un chasseur villageois qui blesse un villageois se repenti et s'interd
 ## 7. chat et journal
 
 Journal : C'est ici que les joueurs reçeverons leurs informations d'actions, les annonces du jeu, changement de phase, annonce des morts, les informations publique et privée, les informations privée sont marqué d'une petite étoile. Se situe sur l'écran principal en haut.
+
+Votes publics en direct : pendant l'élection du Maire et pendant le lynchage, chaque joueur recevant au moins une voix porte une pastille 🗳️ en haut à gauche de sa carte, indiquant en temps réel le nombre de voix reçues (celle du joueur le plus voté est mise en évidence en rouge). En cliquant sur cette pastille, n'importe quel joueur voit la liste nominative de ceux qui ont voté contre cette cible, ainsi que la liste des joueurs vivants n'ayant pas encore voté (abstentions). Les votes du village ne sont donc plus secrets : ils sont visibles de tous, immédiatement, et il n'existe plus de révélation différée au lendemain matin. ⚠️ Cela ne concerne QUE les votes de jour : le vote d'attaque des Loups la nuit reste secret et n'apparaît jamais dans cette pastille. Le vote collectif des morts garde sa propre pastille 💀 distincte, en haut à droite.
 
 Chat publique : Tous les joueurs peuvent communiquer depuis le chat publique qui se situe sur l'écran principal en haut.
 Les joueurs se voient parler avec leur prénom affiché.
@@ -317,7 +319,7 @@ Automatique : Système de jeu sur 24h pendant 7 jours, où 1 jour dans le jeu es
 
 ## 10. Version et disponibilité des rôles
 
-Lycantyr est actuellement en version Alpha Test. La Bêta Test sera disponible le 31 juillet.
+Lycantyr est actuellement en version Alpha Test. La Bêta Test sortira prochainement, sans date annoncée pour le moment.
 
 Tous les rôles décrits dans ce document ne sont pas encore disponibles dans la version actuelle du jeu. Seuls les rôles intégrés à la distribution de parties sont jouables en v1 :
 - Disponibles en v1 : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Médecin Légiste, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
