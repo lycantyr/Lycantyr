@@ -8,6 +8,8 @@ Lycantyr est un jeu de rôles cachés et de déduction sociale multijoueur en te
 Dans Lycantyr n'importe quel rôle peut appartenir à n'importr quel camp. On peut vous dire "Je suis petite fille" ou "Je suis chasseur" et c'est vérifiable par certains rôles mais vous ne saurez pas à quel camp il appartient.
 Le jeu repose sur un anonymat strict : les joueurs agissent sous un "Pseudo Secret" la nuit et l'identité des rôles morts n'est jamais confirmée publiquement. L'inactivité est sanctionnée par une mort automatique (foudroyage).
 Tout le jeu se déroule exclusivement sur l'application : aucune action réalisée en dehors du jeu, dans la vraie vie, ne peut être retenue contre un joueur ni utilisée pour le discréditer ou l'accuser — seules les actions, votes et déclarations faites DANS l'application comptent. Tous les joueurs jouent en même temps, répartis sur des phases de jeu communes (jour, nuit) qui rythment la partie simultanément pour tout le monde.
+Accès au jeu : Lycantyr se joue dans un vrai navigateur (Safari, Chrome, Firefox…) ou depuis l'application installée sur l'écran d'accueil (PWA). Le jeu ne peut PAS être lancé depuis le navigateur intégré d'une autre application (Instagram, Messenger, Snapchat, TikTok…) : ces navigateurs embarqués bloquent la connexion Google, empêchent l'installation de l'application et ne reçoivent pas les notifications. Si un joueur ouvre un lien de partie depuis l'une de ces applications, un écran l'invite à ouvrir le lien dans son navigateur (avec copie du lien, et ouverture directe sur Android). L'Activity Discord, elle, reste un contexte de jeu pleinement supporté.
+
 Il y a deux modes de jeu:
 Un en manuel où les joueurs peuvent passer la phase en cliquant sur un bouton (2min à partir du premier joueur qui clique et instantanné lorsque tous les joueurs ont cliqué).
 Un en mode automatique, c'est des parties qui peuvent s'organiser sur 7 jours. Une nuit dans la vraie vie, c'est une nuit dans le jeu. Et les joueurs peuvent parler, manipuler et élaborer des stratégie pendant toute une semaine entre amis, famille, collègue de travail.
@@ -22,6 +24,8 @@ Le village est physiquement divisé en 5 quartiers : L'Hôtel de Ville, L'Auberg
 * Élection du Maire (Uniquement le premier jour) : Débat et vote. En cas d'égalité, un second tour départage les finalistes. Le hasard tranche si l'égalité persiste.
 * Lynchage : Débat et vote pour exécuter un suspect. En cas d'égalité, un second tour a lieu entre les finalistes. Si l'égalité persiste, personne n'est exécuté.
 * Crépuscule : L'exécution a lieu (le rôle de la victime reste secret jusqu'au lendemain). La nuit tombe.
+
+Les votes de jour (élection comme lynchage) sont PUBLICS et visibles EN DIRECT par tout le monde : chaque joueur ciblé porte une pastille indiquant son nombre de voix, et n'importe qui peut voir la liste nominative de ceux qui ont voté contre lui (cf. section 7). Voter est donc un acte assumé publiquement, immédiatement. Seul le vote d'attaque des Loups, la nuit, reste secret.
 
 ### La Phase de Nuit (Temps des pouvoirs)
 
@@ -231,7 +235,8 @@ Si le Maire meurt, il désigne son successeur dans son dernier souffle.
 6. Les soins de la Sorcière ou du Vaudou-Loup peuvent sauver la victime finale des loups.
 7. Les conversions occultes (Meneur, Occultiste, Vagabond occulte) sont appliquées sur les cibles survivantes.
 8. Les morts par chagrin d'amour se propagent en cascade.
-9. (Les votes ne sont plus révélés le lendemain : ils sont publics en direct pendant la journée, cf. section 7.)
+
+Note : il n'y a plus d'étape de « révélation des votes de la veille » au matin. Les votes du village sont désormais publics en direct pendant la journée elle-même (cf. section 7), il n'y a donc plus rien à dévoiler le lendemain.
 
 ## 6. Label état
 
@@ -266,7 +271,7 @@ En haut à droite de l'ecran principal se situe ces deux boutons.
 
 Information :
 Il y a 3 onglets.
-Glossaire des rôles : Ici y es répertorié tous les rôles du jeu avec les explications en fonction du camp.
+Glossaire des rôles : Ici y es répertorié tous les rôles du jeu avec les explications en fonction du camp. En ouvrant un rôle, trois cartes en haut de l'écran permettent de basculer entre les camps (Villageois, Loup-Garou, Occulte) pour lire la variante correspondante. Le nom du camp est écrit sous chacune des trois cartes en permanence, et celui du camp sélectionné est mis en évidence en doré.
 Déroulement du jeu : Explication du fonctionnement des phases de jeu.
 Mécaniques : Explication des mécaniques de jeu tel que les quartiers et les pseudos secret.
 
@@ -293,6 +298,10 @@ Pour créer une partie personnalisée il faut cliqué sur "Partie personnalisée
 Pour inviter des amis tu cliques sur "partager", ils peuvent se connecter et ils atterriront directement dans le lobby de la partie.
 Tu peux décider de joueur toi aussi au jeu en cliquant sur jouer à côté de ton prénom, mais si tu souhaites expliquer le jeu à de nouveaux joueur il est préferable de resté en spectateur et en tant que MJ tu peuw nommer des Co-MJ pour t'aider à gérer la partie.
 Lorsque tous tes amis sont dans la partie tu peux lancer la partie et tu peux choisir plusieurs mode de jeu :
+Débutant : Pensé pour découvrir le jeu. Distribution des rôles identique au mode Classique (les loups n'ont pas de rôle spécial), avec trois simplifications supplémentaires :
+- Le camp ET le rôle exact d'un joueur sont révélés à TOUT LE MONDE dès sa mort (quelle qu'en soit la cause), au lieu de rester secrets.
+- Les morts ne votent plus du tout au lynchage (le "vote des morts" est désactivé) et n'ont plus accès au chat des morts.
+- Le rôle Médecin Légiste n'est jamais distribué, même si le MJ tente de l'activer (verrouillé dans la configuration des rôles).
 Classique : Les loups n'ont pas de rôle spécial (LG Standard). Seuls les villageois reçoivent des rôles spéciaux.
 Confirmé : Les loups possèdent également des rôles spéciaux (variante loup du rôle).
 
