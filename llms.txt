@@ -18,24 +18,25 @@ Un en mode automatique, c'est des parties qui peuvent s'organiser sur 7 jours. U
 
 Le village est physiquement divisé en 5 quartiers : L'Hôtel de Ville, L'Auberge, L'Église, Le Marché et Le Moulin. Chaque joueur réside dans l'un de ces quartiers. L'emplacement géographique est crucial la nuit pour les attaques et les défenses.
 
-### La Phase de Jour (Temps de débat et de vote)
-
-* Le Matin : Annonce des morts de la nuit (Prénom et quartier où il a été trouvé mort).
-* Élection du Maire (Uniquement le premier jour) : Débat et vote. En cas d'égalité, un second tour départage les finalistes. Le hasard tranche si l'égalité persiste.
-* Lynchage : Débat et vote pour exécuter un suspect. En cas d'égalité, un second tour a lieu entre les finalistes. Si l'égalité persiste, personne n'est exécuté.
-* Crépuscule : L'exécution a lieu (le rôle de la victime reste secret jusqu'au lendemain). La nuit tombe.
-
-Les votes de jour (élection comme lynchage) sont PUBLICS et visibles EN DIRECT par tout le monde : chaque joueur ciblé porte une pastille indiquant son nombre de voix, et n'importe qui peut voir la liste nominative de ceux qui ont voté contre lui (cf. section 7). Voter est donc un acte assumé publiquement, immédiatement. Seul le vote d'attaque des Loups, la nuit, reste secret.
-
 ### La Phase de Nuit (Temps des pouvoirs)
 
-* Première partie de la nuit (Actions) : Les joueurs utilisent leurs pouvoirs actifs. La Meute de Loups-Garous se concerte et vote pour attaquer une victime dans un quartier précis. Les rôles de blocage, de défense, d'assassinat, d'entrave et de distribution de malédictions agissent durant cette phase.
-* Seconde partie de la nuit (Résolutions) : Les Loups se rendorment. Les rôles de soin (qui agissent sur les victimes de la meute) et de conversion entrent en jeu. Le réveil général a lieu à la fin de cette phase.
+Il n'existe plus qu'UNE SEULE phase de nuit (l'ancienne « Nuit 2 », réservée à la Sorcière, a été supprimée). Tous les pouvoirs de nuit agissent simultanément et se résolvent immédiatement : la Meute de Loups-Garous se concerte et vote pour attaquer une victime dans un quartier précis, et tous les autres rôles (blocage, défense, assassinat, entrave, conversion, enquête, etc.) agissent en même temps. Les rapports d'enquête (Enquêteur, Vagabond, Garde, Vaudou, etc.) arrivent dès la résolution de cette nuit, dans le journal de chacun.
+
+### La Phase de Jour (Temps de débat et de vote)
+
+* Le Matin : dès le lever du jour, les victimes de la nuit sont déclarées DÉFINITIVEMENT mortes et annoncées publiquement dans le journal (Prénom et quartier où elles ont été trouvées mortes). Les joueurs découvrent aussi dans leur journal les rapports de leurs pouvoirs de la nuit passée (enquêtes, patrouilles, visions...). La Sorcière dispose ensuite de toute cette journée (élection comme lynchage) pour tenter de RESSUSCITER l'une de ces victimes avec sa potion de vie (utilisable uniquement sur un joueur mort la nuit qui vient de s'écouler, et pas sur toute mort — certaines, comme une contre-attaque de la Garde, ne sont pas résurrectibles). Si elle le fait, un message public l'annonce dans le journal de tous ("La Sorcière a décidé d'utiliser sa potion de soin pour ramener {victime} à la vie !"), sans jamais révéler l'identité de la Sorcière elle-même.
+* Élection du Maire (Uniquement le premier jour) : Débat et vote. En cas d'égalité, un second tour départage les finalistes. Le hasard tranche si l'égalité persiste.
+* Lynchage : Débat et vote pour exécuter un suspect. En cas d'égalité, un second tour a lieu entre les finalistes. Si l'égalité persiste, personne n'est exécuté.
+* Crépuscule : L'exécuté du lynchage meurt. La nuit tombe.
+
+Révélation différée du rôle et du camp : quelle que soit la cause de la mort (lynchage, corbeau, chagrin d'amour ou attaque de nuit), le rôle ET le camp exacts d'un mort ne sont révélés publiquement dans le journal de tous que le LENDEMAIN, au tout début de la journée suivante — jamais le jour même. Le fait qu'il soit mort, lui, est connu immédiatement : dès le matin pour une victime de la nuit (sauf résurrection par la Sorcière dans la journée), ou en direct pour un lynchage (vote public).
+
+Les votes de jour (élection comme lynchage) sont PUBLICS et visibles EN DIRECT par tout le monde : chaque joueur ciblé porte une pastille indiquant son nombre de voix, et n'importe qui peut voir la liste nominative de ceux qui ont voté contre lui (cf. section 7). Voter est donc un acte assumé publiquement, immédiatement. Seul le vote d'attaque des Loups, la nuit, reste secret.
 
 ## 3. LES FACTIONS ET CONDITIONS DE VICTOIRE
 
 * Le Village : Remporte la partie si tous les Loups-Garous et la Secte Occulte sont éliminés. Ils ne connaissent le camp ou le rôle de personne par défaut, dans la vue du village ils voient seulement les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur pseudo secret en dessous.
-* Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 25% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 25% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs, avec leur prénom ET leur pseudo secret affichés l'un sous l'autre en dessous de la carte. Le Vaudou Loup-Garou ne bénéficie pas de cet avantage : comme les autres camps, il ne voit que le pseudo secret des joueurs dans les quartiers.
+* Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 20% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 20% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs, avec leur prénom ET leur pseudo secret affichés l'un sous l'autre en dessous de la carte. Le Vaudou Loup-Garou ne bénéficie pas de cet avantage : comme les autres camps, il ne voit que le pseudo secret des joueurs dans les quartiers.
 * La Secte Occulte : Remporte la partie si — (1) ses membres sont plus nombreux que les Loups-Garous en vie, (2) un leader de la Secte est en vie (Occultiste ou Meneur de Secte), (3) le Maire est un membre de la Secte. Si tous les Loups sont éliminés, la condition de majorité disparaît : un leader en vie et le Maire Occulte suffisent à l'emporter. Sans leader en vie, le Village gagne même si le Maire est Occulte. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
 
 Une partie peut se terminer avant les 8 nuits maximum dans deux cas : tous les Loups sont morts, ou tous les Villageois et Occultes sont morts. À la fin de la 8ème nuit, les conditions de victoire proportionnelles s'appliquent.
@@ -47,6 +48,7 @@ Dans chaque partie, quelle que soit sa taille, le serveur ajoute automatiquement
 * N'ont aucun rôle et ne sont affiliés à aucun camp réel : ils ne peuvent jamais être ciblés, attaqués, votés, ni comptés dans une condition de victoire ou une statistique de partie.
 * Ne sont pas cliquables : ce sont de simples cartes informatives dans la vue des quartiers.
 * N'apparaissent jamais dans la vue du village, uniquement dans la vue des quartiers.
+* Dans la vue des quartiers, vrais et faux joueurs sont toujours mélangés ensemble et triés par pseudo secret (même ordre pour tous les camps) — jamais affichés dans un bloc séparé. Un joueur ne peut donc pas deviner qui sont les leurres simplement en repérant leur position dans la grille.
 
 ### Mécanique de Conversion Occulte
 
@@ -60,11 +62,12 @@ La Secte convertit les joueurs innocents en leur glissant secrètement des "jeto
 
 Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou s'il se fait corrompre), le rôle s'adapte.
 
-### LA SORCIÈRE (Nuit 1 & Nuit 2)
+### LA SORCIÈRE (Nuit pour les potions offensives, Jour pour la potion de vie)
 
-* Variante Village : Possède 1 Potion de Mort (utilisable en première partie de nuit) et 1 Potion de Vie (utilisable en seconde partie de nuit sur la victime des Loups) pour toute la partie. Limitée à une potion par nuit.
+* Variante Village : Possède 1 Potion de Mort (utilisable la nuit, sur un joueur vivant) et 1 Potion de Vie (utilisable le jour qui suit, pour RESSUSCITER un joueur mort la nuit passée) pour toute la partie. Limitée à une seule potion (offensive ou vie) par cycle nuit + jour.
 * Variante Loup-Garou : Sa potion de mort est remplacée par une Potion de Paralysie. La cible tombe dans un coma profond et est annoncée morte au village. Elle se réveillera publiquement 24h plus tard.
 * Variante Occulte : Reçoit 1 charge de potion supplémentaire, utilisable au choix sur la potion de vie ou la potion offensive (mort ou paralysie selon la variante). 3 charges au total.
+* La potion de vie se joue de JOUR, pendant toute la phase de vote (élection incluse), et se résout immédiatement : les victimes de la nuit sont déjà officiellement mortes (annoncées dès le matin) quand la Sorcière agit — sa potion les fait donc revenir à la vie, plutôt que de prévenir leur mort. Dès son utilisation, un message public apparaît dans le journal de tous les joueurs ("La Sorcière a décidé d'utiliser sa potion de soin pour ramener {victime} à la vie !"), sans jamais révéler qui est la Sorcière. Certaines morts ne sont pas résurrectibles (ex : contre-attaque de la Garde).
 
 ### LE CHASSEUR (Nuit 1)
 
@@ -86,7 +89,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 ### LE VAUDOU (Nuit 1)
 
 * Variante Village : Sonde l'âme de 2 joueurs. Au matin, il apprend si au moins un Loup-Garou se cache parmi eux (sans savoir lequel). Possède 3 charges.
-* Variante Loup-Garou : N'est pas un loup-garou, donc il est vu comme villageois et n'attaque pas avec la meute, mais a toutes les informations comme si c'était un loup-garou et joue avec eux et n'a pas accès au chat des Loups-garous. Prépare un rituel de corruption (2 charges). Si la meute tente de tuer un joueur cette nuit-là, la victime est sauvée par le rituel et rejoint instantanément la meute des Loups-Garous, gardant son rôle intact. La charge est toujours remboursée en cas d'échec : si la meute ne fait aucune victime, si la cible est bénie par le Prêtre, ou si la cible appartient à la Secte Occulte (immunisés à la corruption). Le Vaudou Loup-Garou perd son pouvoir s'il reste le dernier loup en vie et se transforme lui-même en Loup-Garou.
+* Variante Loup-Garou : N'est pas un loup-garou, donc il est vu comme villageois et n'attaque pas avec la meute, mais a toutes les informations comme si c'était un loup-garou et joue avec eux et n'a pas accès au chat des Loups-garous. Prépare un rituel de corruption — une seule charge, utilisable UNE SEULE FOIS pour toute la partie. Si la meute tente de tuer un joueur cette nuit-là, la victime est sauvée par le rituel et rejoint instantanément la meute des Loups-Garous, gardant son rôle intact. La charge est toujours remboursée en cas d'échec (elle reste alors disponible) : si la meute ne fait aucune victime, si la cible est bénie par le Prêtre, ou si la cible appartient à la Secte Occulte (immunisés à la corruption). Nerf : contrairement à avant, le Vaudou Loup-Garou ne se transforme plus automatiquement en Loup-Garou lorsqu'il devient le dernier membre vivant du camp des Loups — s'il ne reste plus aucun vrai Loup-Garou en vie, la meute perd définitivement sa capacité d'attaque nocturne pour le reste de la partie.
 * Variante Occulte : Son pouvoir de sondage est amplifié, il peut choisir de sonder jusqu'à 3 joueurs à la fois au lieu de 2 et possède 4 charges au lieu de 3.
 
 ### LE GARDE (Nuit 1)
@@ -140,8 +143,8 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 
 ### LE FOSSOYEUR (Nuit 1)
 
-* Variante Village & Loup-Garou : Chaque nuit (phase 1), il choisit un joueur mort qui n'a pas encore été réveillé. À la fin de la nuit 1, ce mort est "éveillé" temporairement : il reçoit un message dans son journal lui proposant deux choix pour la nuit 2 : (a) utiliser son pouvoir de rôle une dernière fois, ou (b) voter de façon posthume lors du prochain lynchage.
-  - Le mort réveillé utilise SON choix pendant la nuit 2 (son bouton Vote ou Action s'illumine d'un halo rouge néon).
+* Variante Village & Loup-Garou : Chaque nuit, il choisit un joueur mort qui n'a pas encore été réveillé. Ce mort est "éveillé" temporairement : il reçoit un message dans son journal lui proposant deux choix pour la fin de cette même nuit : (a) utiliser son pouvoir de rôle une dernière fois, ou (b) voter de façon posthume lors du prochain lynchage.
+  - Le mort réveillé utilise SON choix avant la fin de la nuit (son bouton Vote ou Action s'illumine d'un halo rouge néon).
   - S'il choisit le "Vote Posthume", son vote est enregistré discrètement et comptabilisé lors du prochain lynchage du village (affiché avec le label "Vote posthume" dans la liste des votants).
   - S'il choisit son action de rôle, il l'exécute normalement et l'effet s'applique.
   - Un mort ne peut être éveillé qu'une seule fois par partie.
@@ -151,9 +154,9 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 
 ### LE BOURREAU (Nuit 1 — une fois par partie)
 
-* Variante Village & Loup-Garou : Chaque début de nuit (phase 1), le Bourreau reçoit dans son journal personnel le prénom du joueur ayant reçu le plus de votes lors du dernier lynchage du village sans avoir été lynché (typiquement le 2e plus voté). Il peut alors décider d'exécuter secrètement cette personne durant la nuit.
+* Variante Village & Loup-Garou : Chaque début de nuit, le Bourreau reçoit dans son journal personnel le prénom du joueur ayant reçu le plus de votes lors du dernier lynchage du village sans avoir été lynché (typiquement le 2e plus voté). Il peut alors décider d'exécuter secrètement cette personne durant la nuit.
   - Si plusieurs joueurs sont à égalité de votes en tête des non-lynchés, le Bourreau choisit parmi eux qui exécuter.
-  - L'exécution n'est pas soignable par la Sorcière (victim_can_be_healed: false).
+  - L'exécution n'est pas résurrectible par la Sorcière (death_can_be_healed: false).
   - Le Forgeron peut bloquer l'exécution si la cible est protégée.
   - Il peut ignorer cette nuit sans utiliser son pouvoir. Une fois utilisé, le pouvoir disparaît définitivement (bourreau_used: true sur le doc joueur).
   - L'exécution s'applique même s'il y a eu une motion de non-lynchage (les votes sont quand même pris en compte).
@@ -163,9 +166,9 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 
 ### LE TRAQUEUR DES RUELLES (Nuit 1 — chaque nuit)
 
-* Variante Village & Loup-Garou : Chaque nuit (phase 1), le Traqueur envoie ses rats dans un quartier de son choix (même sélecteur que Vagabond/Garde/Politicien). À la fin de la nuit phase 2, il reçoit un rapport dans son journal personnel indiquant quels joueurs présents dans ce quartier ont utilisé une action nocturne (phase 1 uniquement).
+* Variante Village & Loup-Garou : Chaque nuit, le Traqueur envoie ses rats dans un quartier de son choix (même sélecteur que Vagabond/Garde/Politicien). Il reçoit dès le matin un rapport dans son journal personnel indiquant quels joueurs présents dans ce quartier ont utilisé une action nocturne.
   - Il voit le PRÉNOM de chaque joueur actif (et non son pseudo secret), mais pas le type d'action. Son rapport est donc directement exploitable dans le débat du village. Corollaire : le faux pseudo attribué par le Faussaire ne trompe pas le Traqueur, puisqu'il ne maquille que le pseudo secret et pas l'identité réelle.
-  - Seules les actions Firestore de nuit phase 1 sont comptabilisées (pas les attaques des loups depuis le RTDB, pas les actions du jour, pas les actions annulées par le Forgeron — resolved_effective: true requis).
+  - Seules les actions Firestore de la nuit sont comptabilisées (pas les attaques des loups depuis le RTDB, pas les actions du jour, pas les actions annulées par le Forgeron — resolved_effective: true requis).
   - Si aucun joueur n'a agi dans le quartier ciblé, il reçoit un message "Aucun joueur présent dans ce quartier n'a effectué d'action cette nuit."
   - Le Forgeron peut bloquer l'envoi des rats (resolved_effective: false).
   - Résultat au step morningStep (day_election au jour 1, day_lynch ensuite).
@@ -182,15 +185,14 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 * Variante Village & Loup-Garou : Une fois par partie, la nuit, il désigne secrètement un joueur en lui posant un corbeau. Le joueur marqué est exclu du vote de lynchage normal. À la place, un vote spécial "Vote corbeau" est ouvert à tout le village pendant la phase de lynchage : si strictement plus de la moitié des joueurs vivants (spectateurs exclus) votent contre lui, le porteur du corbeau est exécuté. Sinon, le corbeau est retiré et rien ne se passe. La présence du corbeau est annoncée publiquement (label 🦅 visible sur la carte du joueur) et inscrite dans le journal de groupe dès la nuit suivante. Le joueur portant le corbeau n'est pas grisé lors d'un second tour de lynchage et peut tout de même être ciblé. Le Maître des Corbeaux lui-même vote avec le bouton "Voter contre le corbeau" comme les autres.
 * Variante Occulte : Son corbeau invisible pèse plus lourd — son propre vote corbeau compte double (il apporte 1 vote bonus automatique au total des votes corbeau), augmentant la pression sur la cible.
 
-### LE CONFESSEUR (Nuit 1 & Nuit 2)
+### LE CONFESSEUR (Nuit)
 
-* Variante Village & Loup-Garou : 3 charges par partie. La nuit (phase 1), il cible secrètement un joueur pour "confesser" ses liens cachés. Le backend lit et stocke si la cible est amoureuse (lover_id), bénie (is_blessed) ou porteuse de jetons occultes (occultTokenCount). En phase 2, le Confesseur reçoit ces informations et peut choisir de briser UNE seule chose parmi les liens détectés :
+* Variante Village & Loup-Garou : 3 charges par partie. La nuit, il cible secrètement un joueur pour "confesser" ses liens cachés. Le backend lit et stocke si la cible est amoureuse (lover_id), bénie (is_blessed) ou porteuse de jetons occultes (occultTokenCount). Le Confesseur reçoit ces informations et peut choisir de briser UNE seule chose parmi les liens détectés :
   - Briser le lien amoureux : unilatéral (seul le lover_id de la cible est supprimé, pas celui de l'autre amoureux). Attention : si le couple est inter-camp loup/village, l'amour résiste — la charge est quand même consommée.
   - Retirer la bénédiction : la cible n'est plus protégée contre les conversions occultes (is_blessed → false).
   - Purifier les jetons occultes : tous les jetons occultes de la cible sont retirés (occultTokenCount → 0).
-  - Si le Confesseur ne brise rien en phase 2, aucune charge n'est consommée.
+  - S'il ne brise rien, aucune charge n'est consommée.
   - La cible est notifiée dans son journal personnel au matin uniquement si un lien a réellement été brisé (le Prêtre, la Musicienne et le Meneur ne sont PAS notifiés).
-  - Si la cible meurt entre la phase 1 et la phase 2 (victime des loups), le Confesseur peut quand même agir dessus en phase 2 (elle est encore victime).
   - Un couple inter-camp loup/village révèle dans le journal de l'acteur que l'amour a résisté (mais consomme la charge).
 * Variante Occulte : 4 charges au lieu de 3.
 
@@ -232,7 +234,7 @@ Si le Maire meurt, il désigne son successeur dans son dernier souffle.
 3. Les informations illusoires (Faussaire) s'appliquent avant toute vérification d'enquête. Les joueurs affectés reçoivent une correction générique le lendemain matin.
 4. Les meurtres (Chasseur, Petite Fille Assassin, Sorcière, Sacrifice, Loups-Garous) sont calculés simultanément.
 5. Les interceptions de combat (Vagabond Armé, Garde) s'appliquent sur les cibles des attaques.
-6. Les soins de la Sorcière ou du Vaudou-Loup peuvent sauver la victime finale des loups.
+6. Le soin de la Sorcière n'intervient plus dans cette résolution de nuit : les victimes sont déclarées mortes dès le matin (cf. section 2), et c'est ce joueur déjà mort que la Sorcière peut RESSUSCITER plus tard dans la journée avec sa potion de vie. Le Vaudou-Loup, lui, garde un mécanisme distinct et immédiat : s'il est lui-même ciblé par l'attaque de sa propre meute (friendly fire), il est automatiquement épargné cette nuit-là, mais perd son pouvoir rituel.
 7. Les conversions occultes (Meneur, Occultiste, Vagabond occulte) sont appliquées sur les cibles survivantes.
 8. Les morts par chagrin d'amour se propagent en cascade.
 
@@ -240,7 +242,7 @@ Note : il n'y a plus d'étape de « révélation des votes de la veille » au ma
 
 ## 6. Label état
 
-Blessé : Un joueur blessé ne pourra pas voter ni effectué son action, cette état dure 1 jour (du debut du jour jusqu'a la fin de la nuit 2eme phase) de l'aube à l'aube. Un vagabond blessé n'aura pas les informations du quartier le matin, et n'intercepte pas les attaques des loups. Un garde blessé ne participe au combat contre les attaques des loups dans le quartier où il est.
+Blessé : Un joueur blessé ne pourra pas voter ni effectué son action, cette état dure 1 jour (du debut du jour jusqu'a la fin de la nuit qui suit) de l'aube à l'aube. Un vagabond blessé n'aura pas les informations du quartier le matin, et n'intercepte pas les attaques des loups. Un garde blessé ne participe au combat contre les attaques des loups dans le quartier où il est.
 
 Lié : Les joueurs lié seront amoureux au début du jour, si un des joueur meurt pendant la liaison avant le jour, alors ce lien est brisé et rien ne se passe.
 
@@ -284,6 +286,10 @@ Confidentialité (RGPD) : Renvoi vers les RGPD.
 Paramètres supplémentaire en partie :
 Le bouton ⚙️ en haut à droite de l'écran en partie ouvre le panneau de paramètres de jeu (options MJ). Les préférences personnelles (Interface et Notifications) sont accessibles depuis le profil du joueur.
 Le MJ y dispose d'un bouton « Mettre fin à la partie » qui termine immédiatement la partie en cours. Les conditions de victoire sont alors calculées sur la situation du moment, exactement comme à la fin de la dernière nuit (règle proportionnelle des Loups-Garous), puis la page des scores s'affiche pour tous les joueurs. La partie compte comme une fin normale (Elo, statistiques et compteurs de parties sont appliqués). Ce bouton est accessible à tout MJ, quel que soit son niveau de progression.
+
+Écran de fin persistant : la page des scores reste accessible à TOUS les joueurs tant qu'ils n'ont pas cliqué sur « Quitter » (bouton en bas de cet écran) — pas seulement au MJ. Un joueur qui n'était pas connecté au moment exact de la fin de partie (application fermée, notification manquée, écran verrouillé…) la retrouve automatiquement en rouvrant l'application, exactement comme s'il rouvrait une partie encore en cours.
+
+Reprendre une partie : si le lien entre le compte et une partie se perd (départ volontaire en cours de partie via le bouton « Quitter », ou incident technique), un bandeau d'avertissement apparaît en haut du menu principal. Il liste chaque partie où le compte est toujours inscrit comme joueur mais qui n'est plus rattachée à son compte, avec un bouton « Rejoindre » (retour direct dans la partie, à l'écran adapté : salon d'attente, partie en cours ou écran de fin) et un bouton « ✕ » pour l'ignorer définitivement. Une partie explicitement quittée (bouton « Quitter », en cours de partie ou sur l'écran de fin) ne réapparaît jamais dans ce bandeau.
 
 Interface (dans le profil) :
 Taille de l'interface : slider de 90 % à 150 %, appliqué instantanément et sauvegardé.
