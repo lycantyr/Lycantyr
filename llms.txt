@@ -29,7 +29,7 @@ Il n'existe plus qu'UNE SEULE phase de nuit (l'ancienne « Nuit 2 », réservée
 * Lynchage : Débat et vote pour exécuter un suspect. En cas d'égalité, un second tour a lieu entre les finalistes. Si l'égalité persiste, personne n'est exécuté.
 * Crépuscule : L'exécuté du lynchage meurt. La nuit tombe.
 
-Révélation différée du rôle et du camp : quelle que soit la cause de la mort (lynchage, corbeau, chagrin d'amour ou attaque de nuit), le rôle ET le camp exacts d'un mort ne sont révélés publiquement dans le journal de tous que le LENDEMAIN, au tout début de la journée suivante — jamais le jour même. Le fait qu'il soit mort, lui, est connu immédiatement : dès le matin pour une victime de la nuit (sauf résurrection par la Sorcière dans la journée), ou en direct pour un lynchage (vote public).
+Révélation différée du rôle et du camp après la mort : le rôle ET le camp exacts d'un mort sont révélés à TOUT LE MONDE, mais seulement le LENDEMAIN de sa mort — jamais le jour même, quelle que soit la cause (lynchage, corbeau, chagrin d'amour ou attaque de nuit). Le jour de la mort, seul le FAIT qu'il soit mort est connu : immédiatement pour un lynchage (vote public), ou dès le matin pour une victime de la nuit. Concrètement, les morts de la nuit 1 et du jour 1 voient leur rôle et leur camp dévoilés au jour 2 ; ceux de la nuit 2 et du jour 2 au jour 3, et ainsi de suite. Ce délai d'un jour laisse une fenêtre où la mort est publique mais l'identité encore secrète — et c'est précisément dans cette fenêtre que la Sorcière peut ressusciter une victime de la nuit : un joueur ramené à la vie ne sera jamais révélé, sa révélation programmée étant annulée (il redevient totalement secret, et repart pour un nouveau délai d'un jour s'il meurt plus tard).
 
 Les votes de jour (élection comme lynchage) sont PUBLICS et visibles EN DIRECT par tout le monde : chaque joueur ciblé porte une pastille indiquant son nombre de voix, et n'importe qui peut voir la liste nominative de ceux qui ont voté contre lui (cf. section 7). Voter est donc un acte assumé publiquement, immédiatement. Seul le vote d'attaque des Loups, la nuit, reste secret.
 
@@ -135,11 +135,11 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
 * Variante Occulte : Il peut cumuler les actions des morts des deux derniers lynchages, si une des actions a été utilisé il n'aura plus la disponibilité de l'utiliser.
 * Camp de l'Embaumeur et version des actions : L'Embaumeur utilise toujours la version des actions correspondant à SON propre camp, indépendamment du camp du mort dont il récupère le pouvoir. Un Embaumeur Villageois obtient la version villageoise (ex : Chasseur VIL, Sorcière poison), un Embaumeur Loup-Garou obtient la version loup (ex : Chasseur LG, Sorcière paralysie), un Embaumeur Occulte obtient la version occulte de chaque rôle (avec tous ses bonus OCC associés). Le camp du mort n'influence jamais la version du pouvoir transmis.
 
-### LE MÉDECIN LÉGISTE (Nuit 1)
+### LE MÉDECIN LÉGISTE — RÔLE HÉRITAGE, RETIRÉ DU JEU
 
-* Variante Village & Loup-Garou : Chaque nuit, il peut autopsier un joueur déjà mort. Il obtient alors en privé le rapport complet : pseudo secret, rôle exact, camp et le quartier d'où provenait son meurtrier. Si deux médecins légistes autopsient le même corps, ils apprennent l'un l'autre leur existence.
-* Variante Loup-Garou : En plus du rapport standard, il obtient la liste de toutes les cibles que le mort a visées au cours de la partie.
-* Variante Occulte : En plus du rapport standard, il obtient le rôle exact du meurtrier (et pas seulement son quartier d'origine).
+⚠️ Ce rôle n'existe plus. Il a été entièrement retiré de Lycantyr : il n'est plus distribué, plus proposé dans la configuration du lobby, plus consultable dans la fiche des rôles en jeu, et son pouvoir d'autopsie n'est plus implémenté nulle part. Il n'est PAS jouable et ne le sera pas — il n'est décrit ici que pour mémoire, afin qu'une partie archivée ou une discussion ancienne mentionnant ce rôle reste compréhensible.
+
+Ce qu'il faisait, à l'époque où il existait : chaque nuit, il pouvait autopsier un joueur déjà mort et obtenait en privé un rapport complet (pseudo secret, rôle exact, camp, quartier d'origine du meurtrier). Sa variante Loup-Garou ajoutait la liste des cibles visées par le mort au cours de la partie, sa variante Occulte le rôle exact du meurtrier. Deux légistes autopsiant le même corps apprenaient l'existence l'un de l'autre.
 
 ### LE FOSSOYEUR (Nuit 1)
 
@@ -149,7 +149,7 @@ Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou 
   - S'il choisit son action de rôle, il l'exécute normalement et l'effet s'applique.
   - Un mort ne peut être éveillé qu'une seule fois par partie.
   - Si deux Fossoyeurs ciblent le même mort la même nuit, le mort est tout de même réveillé normalement.
-  - Si le Légiste, le Fossoyeur ou l'Embaumeur travaillent sur le même cadavre la même nuit, chacun d'eux apprend dans son journal quels autres rôles ont également agi sur ce corps.
+  - Si le Fossoyeur et l'Embaumeur travaillent sur le même cadavre la même nuit, chacun d'eux apprend dans son journal que l'autre a également agi sur ce corps.
 * Variante Occulte : En plus de tout ce qui précède, le Fossoyeur apprend dans son journal le rôle exact et le camp du mort qu'il vient de réveiller.
 
 ### LE BOURREAU (Nuit 1 — une fois par partie)
@@ -303,41 +303,95 @@ Activer ou désactiver les notifications push sur l'appareil courant. Interrupte
 Pour créer une partie personnalisée il faut cliqué sur "Partie personnalisée" puis aller dans l'onglet "Partie privée" et cliquer sur "Créer un Lobby".
 Pour inviter des amis tu cliques sur "partager", ils peuvent se connecter et ils atterriront directement dans le lobby de la partie.
 Tu peux décider de joueur toi aussi au jeu en cliquant sur jouer à côté de ton prénom, mais si tu souhaites expliquer le jeu à de nouveaux joueur il est préferable de resté en spectateur et en tant que MJ tu peuw nommer des Co-MJ pour t'aider à gérer la partie.
-Lorsque tous tes amis sont dans la partie tu peux lancer la partie et tu peux choisir plusieurs mode de jeu :
-Débutant : Pensé pour découvrir le jeu. Distribution des rôles identique au mode Classique (les loups n'ont pas de rôle spécial), avec trois simplifications supplémentaires :
-- Le camp ET le rôle exact d'un joueur sont révélés à TOUT LE MONDE dès sa mort (quelle qu'en soit la cause), au lieu de rester secrets.
-- Les morts ne votent plus du tout au lynchage (le "vote des morts" est désactivé) et n'ont plus accès au chat des morts.
-- Le rôle Médecin Légiste n'est jamais distribué, même si le MJ tente de l'activer (verrouillé dans la configuration des rôles).
-Classique : Les loups n'ont pas de rôle spécial (LG Standard). Seuls les villageois reçoivent des rôles spéciaux.
-Confirmé : Les loups possèdent également des rôles spéciaux (variante loup du rôle).
+Lorsque tous tes amis sont dans la partie, tu peux la lancer. Il n'y a PLUS de choix de mode de jeu : les anciens modes Classique, Initié et Confirmé ont été retirés, et toutes les parties suivent désormais les mêmes règles, uniformes :
+- Village comme loups reçoivent des rôles spéciaux (les loups ne sont donc pas de simples LG Standard).
+- Le camp ET le rôle exact d'un joueur sont révélés à TOUT LE MONDE le LENDEMAIN de sa mort, quelle qu'en soit la cause. La mort elle-même est annoncée immédiatement ; seule la révélation du rôle/camp attend le jour suivant. Un joueur ressuscité avant cette révélation (potion de vie de la Sorcière, ou décision du MJ) redevient totalement secret : la révélation programmée est annulée.
+- Les morts ne votent pas au lynchage (le "vote des morts" est désactivé) et n'ont pas accès au chat des morts.
 
 Configuration des rôles — deux modes sélectionnables :
 
 Mode Intelligent (par défaut) :
-Tous les rôles sont inclus par défaut ; le MJ peut décocher ceux qu'il veut exclure. Un toggle permet de choisir entre "Sans doublon" (chaque rôle présent une seule fois) et "Avec doublon" (le système ajoute automatiquement des copies supplémentaires selon le nombre de joueurs au lancement, dans l'ordre de priorité suivant : Médecin Légiste, Enquêteur, Traqueur, Vagabond, Guetteur, Forgeron, Musicienne, Bourreau, Sorcière, Chasseur, Vaudou, Petite Fille). Le calcul n'est effectué qu'au moment du lancement, lorsque le nombre de joueurs est connu.
+Tous les rôles sont inclus par défaut ; le MJ peut décocher ceux qu'il veut exclure. Un toggle permet de choisir entre "Sans doublon" (chaque rôle présent une seule fois) et "Avec doublon" (le système ajoute automatiquement des copies supplémentaires selon le nombre de joueurs au lancement, dans l'ordre de priorité suivant : Enquêteur, Traqueur, Vagabond, Guetteur, Forgeron, Musicienne, Bourreau, Sorcière, Chasseur, Vaudou, Petite Fille). Le calcul n'est effectué qu'au moment du lancement, lorsque le nombre de joueurs est connu.
 
 Mode Manuel :
 Le MJ ajuste manuellement la quantité de chaque rôle avec [−] N [+]. Valeur par défaut : 1. Valeur 0 = rôle exclu. Maximum 10 par rôle.
 
 Règle commune aux deux modes — restriction des doublons pour les loups :
-En mode Confirmé, les rôles Médecin Légiste, Vaudou et Petite Fille ne peuvent pas voir leur 2ème exemplaire (ou plus) attribué à un loup-garou. Si un loup devait recevoir un doublon de l'un de ces rôles, l'algorithme lui attribue à la place le prochain rôle disponible non restreint. Cette règle s'applique aussi aux nouvelles entrées en cours de partie. En mode Manuel, ces rôles ne sont pas prioritaires pour les loups et ne leur sont attribués en doublon qu'en dernier recours (si aucun autre rôle n'est disponible).
+Les rôles Vaudou et Petite Fille ne peuvent pas voir leur 2ème exemplaire (ou plus) attribué à un loup-garou. Si un loup devait recevoir un doublon de l'un de ces rôles, l'algorithme lui attribue à la place le prochain rôle disponible non restreint. Cette règle s'applique aussi aux nouvelles entrées en cours de partie.
 
 Construction du pool :
 Chaque rôle est répété autant de fois que sa valeur dans le pool, puis le pool est mélangé aléatoirement. Les rôles sont distribués séquentiellement aux joueurs. Si le nombre de joueurs est inférieur à la taille du pool, les entrées en surplus ne sont pas utilisées — les doublons non consommés sont ignorés naturellement.
-
-Joueurs rejoignant une partie déjà en cours :
-Un joueur qui rejoint en cours de route reçoit lui aussi un vrai rôle, tiré parmi ceux que le MJ a activés au lancement (les rôles exclus ne peuvent jamais lui être attribués). Son camp est déterminé pour conserver la proportion de Loups-Garous de la partie. Le pool étant calibré sur le nombre de joueurs présents au lancement, il est déjà entièrement consommé à ce stade : le retardataire pioche alors parmi l'ensemble des rôles autorisés par le MJ, sans tenir compte des quotas déjà atteints. Il est installé dans un quartier DÉJÀ occupé (le moins peuplé d'entre eux), afin de respecter la règle d'au moins 2 joueurs par quartier.
 
 On peut aussi chosir l'horloge de jeu, il y a 2 styles.
 Manuel : Déclenché par les joueurs ou le MJ
 Automatique : Système de jeu sur 24h pendant 7 jours, où 1 jour dans le jeu est un vrai jour IRL.
 
-## 10. Version et disponibilité des rôles
+Grille horaire des parties automatiques (heure de Paris) :
+- 22h → 10h : la NUIT. Les pouvoirs nocturnes et l'attaque de la meute se jouent pendant cette plage. Une partie automatique démarre d'ailleurs à 22h, sur la première nuit.
+- 10h → 14h : uniquement le PREMIER jour, l'élection du Maire (10h-13h) et son éventuel second tour (13h-14h). Les jours suivants, la journée s'ouvre directement sur les débats dès 10h.
+- 14h → 20h : DÉBATS ET VOTES du lynchage — la plus longue plage de la journée, celle où se joue l'essentiel des discussions.
+- 20h → 22h : second tour du lynchage en cas d'égalité, puis crépuscule (l'exécuté meurt, la nuit tombe).
+
+## 10. Distribution à la création de la partie (rôles, camps, quartiers, pseudos, leurres)
+
+Tout est décidé côté serveur au moment où le MJ lance la partie, en une seule passe. Le MJ ne choisit que les quotas de rôles ; tout le reste est tiré au sort. Voici l'ordre exact des opérations.
+
+### Étape 1 — Les quartiers
+
+Le serveur compte les joueurs qui jouent réellement (les spectateurs et le MJ non-joueur sont exclus de ce décompte), puis ouvre un nombre de quartiers égal au nombre de joueurs divisé par 2, arrondi à l'inférieur, avec un minimum de 1 et un maximum de 5. L'objectif est de garantir au moins 2 joueurs par quartier : un quartier à un seul habitant rendrait son occupant trop facile à cibler.
+- 4 à 5 joueurs → 2 quartiers ; 6 à 7 → 3 ; 8 à 9 → 4 ; 10 et plus → les 5 quartiers.
+- Les quartiers effectivement ouverts sont tirés au hasard parmi les 5 : une petite partie n'utilise donc pas toujours les mêmes lieux.
+- Les joueurs sont répartis de la façon la plus équilibrée possible entre ces quartiers (les restes de division sont distribués un par un), puis l'ordre d'attribution est mélangé, de sorte que l'ordre d'arrivée dans le lobby ne donne aucune information sur le quartier obtenu.
+- Les spectateurs et le MJ non-joueur sont rattachés à un quartier de façon purement cosmétique : ils ne participent à aucun mécanisme lié aux quartiers.
+
+### Étape 2 — Les pseudos secrets
+
+Chaque joueur qui n'en a pas encore reçoit un pseudo secret, tiré d'une liste de pseudos du jeu. Un pseudo n'est jamais attribué deux fois dans la même partie, et les pseudos réservés aux faux joueurs (étape 5) sont exclus du tirage. C'est ce pseudo — et non le prénom — qui identifie un joueur dans la vue des quartiers et dans les pouvoirs nocturnes.
+
+### Étape 3 — Les camps
+
+La proportion de Loups-Garous visée est de 20 % de l'effectif (nombre de joueurs divisé par 5, arrondi au plus proche). Les camps pré-assignés manuellement par le MJ sont respectés et comptés dans ce total ; les joueurs restants reçoivent leur camp au hasard jusqu'à atteindre le quota de loups, les autres devenant villageois. La Secte Occulte n'est pas distribuée au lancement : elle se constitue en cours de partie par conversion.
+
+### Étape 4 — Les rôles
+
+Un pool de rôles est construit à partir des quotas définis par le MJ (chaque rôle répété autant de fois que sa valeur), puis mélangé. Tous les joueurs — village comme loups — y piochent un rôle : il n'existe plus de mode où les loups resteraient de simples Loups-Garous sans pouvoir. Le rôle reçoit ensuite un suffixe selon le camp de son porteur, ce qui en change les capacités (variante Village ou variante Loup-Garou ; la variante Occulte apparaît plus tard, par conversion).
+
+Trois garde-fous s'appliquent :
+- **Au moins un vrai loup attaquant.** Le Vaudou Loup-Garou ne participe pas à l'attaque nocturne de la meute. Si le tirage aboutissait à une meute composée uniquement de lui, l'algorithme lui substitue un Loup-Garou standard : une meute a toujours au moins un attaquant.
+- **Doublons interdits aux loups pour certains rôles.** Le 2ᵉ exemplaire (et les suivants) des rôles Vaudou et Petite Fille ne peut pas aller à un loup ; l'algorithme lui donne à la place le prochain rôle disponible non restreint.
+- **Repli.** Un joueur pour qui le pool est épuisé devient simplement Villageois ou Loup-Garou standard selon son camp.
+
+Le cas particulier du Vaudou Loup-Garou : lorsqu'un loup pioche le rôle Vaudou, son camp PUBLIC devient "village" alors qu'il appartient réellement aux loups. Il voit la meute, mais la meute ne le voit pas comme un loup, et il ne bénéficie pas de la vision élargie des quartiers réservée aux loups.
+
+### Étape 5 — Les faux joueurs des quartiers (leurres)
+
+Une fois les rôles distribués, le serveur crée autant de faux profils qu'il y a de Loups-Garous réellement distribués. Chacun reçoit un pseudo secret inutilisé, puis ils sont répartis sur les quartiers déjà peuplés : les quartiers occupés sont mélangés, puis les leurres y sont posés à tour de rôle, de sorte que deux leurres n'atterrissent jamais dans le même quartier tant qu'il reste des quartiers libres. Ce placement ne regarde QUE la liste des quartiers occupés — il est totalement indépendant de l'endroit où vivent les loups.
+
+Attention : dans une petite partie, le nombre de quartiers ouverts est faible (1 quartier à 2-3 joueurs, 2 quartiers à 4-5 joueurs). Un leurre partagera donc mécaniquement le quartier d'un loup très souvent, non par corrélation mais faute de quartiers disponibles.
+
+Ces faux profils n'ont ni rôle, ni camp, ni existence dans la logique du jeu : ils ne peuvent jamais être ciblés, votés, tués, ni comptés dans une condition de victoire. Le détail de leur comportement est décrit à la section 3 ("Faux joueurs des quartiers").
+
+### Étape 6 — Le cloisonnement anti-triche
+
+À l'issue de la distribution, les données de chaque joueur sont éclatées en plusieurs vues étanches :
+- Une **vue privée** contenant le rôle, le camp et les pouvoirs, lisible uniquement par le joueur concerné et par le MJ.
+- Une **vue publique assainie**, lisible par tous, d'où le rôle, le camp, les pouvoirs et le pseudo secret sont retirés. C'est elle qui alimente la vue du village.
+- Un **annuaire de pseudos anonyme**, indexé par pseudo et ne contenant aucune identité : il ne donne que le quartier et l'état vivant/mort. C'est la source de la vue des quartiers pour tous les camps, et il contient aussi les leurres, indistinguables des vrais joueurs.
+- Un **annuaire réservé à la meute**, celui-là indexé par joueur, qui associe prénom et pseudo secret. C'est le privilège d'information des Loups-Garous dans la vue des quartiers — le Vaudou Loup-Garou n'y a pas accès.
+
+Le rôle et le camp d'un joueur ne rejoignent la vue publique qu'au moment de sa révélation, c'est-à-dire le lendemain de sa mort (cf. section 2), et jamais tant qu'il est en vie.
+
+### Joueurs rejoignant une partie déjà en cours
+
+Un joueur qui rejoint en cours de route reçoit lui aussi un vrai rôle, tiré parmi ceux que le MJ a activés au lancement (les rôles exclus ne peuvent jamais lui être attribués). Son camp est déterminé pour conserver la proportion de Loups-Garous de la partie. Le pool étant calibré sur le nombre de joueurs présents au lancement, il est déjà entièrement consommé à ce stade : le retardataire pioche alors parmi l'ensemble des rôles autorisés par le MJ, sans tenir compte des quotas déjà atteints. Il est installé dans un quartier DÉJÀ occupé (le moins peuplé d'entre eux), afin de respecter la règle d'au moins 2 joueurs par quartier.
+
+## 11. Version et disponibilité des rôles
 
 Lycantyr est actuellement en version Alpha Test. La Bêta Test sortira prochainement, sans date annoncée pour le moment.
 
 Tous les rôles décrits dans ce document ne sont pas encore disponibles dans la version actuelle du jeu. Seuls les rôles intégrés à la distribution de parties sont jouables en v1 :
-- Disponibles en v1 : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Médecin Légiste, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
+- Disponibles en v1 : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
+- Retiré du jeu (rôle héritage, non jouable) : Médecin Légiste.
 - En cours d'intégration (pas encore disponibles) : Fossoyeur, Politicien, Prêtre, Embaumeur, Garde, Tavernier, Maître des Corbeaux, Confesseur, Meneur de Secte, Occultiste.
 
 Les rôles non disponibles seront intégrés progressivement au fur et à mesure des mises à jour après la sortie définitive du jeu.
