@@ -1,1 +1,397 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="30"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap" rel="stylesheet"><title>Checking your browser before accessing. Just a moment...</title><style>*{ margin: 0; padding: 0; box-sizing: border-box;} body{ font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background-color: #ffffff; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px;} .container{ text-align: center; max-width: 600px; width: 100%;} .spinner{ width: 64px; height: 64px; margin: 0 auto 32px; position: relative;} .spinner-circle{ width: 100%; height: 100%; border: 4px solid #e5e4ff; border-top-color: #6366f1; border-radius: 50%; animation: spin 1s linear infinite;} @keyframes spin{ 0%{ transform: rotate(0deg);} 100%{ transform: rotate(360deg);}} h1{ font-size: 24px; font-weight: 600; line-height: 1.4; color: #1a1a1a; margin-bottom: 16px;} .domain{ font-weight: 600;} p{ font-size: 14px; color: #666666; line-height: 1.5;} @media (max-width: 768px){ .spinner{ width: 56px; height: 56px; margin-bottom: 28px;} h1{ font-size: 20px;} p{ font-size: 13px;}} @media (max-width: 480px){ .spinner{ width: 48px; height: 48px; margin-bottom: 24px;} .spinner-circle{ border-width: 3px;} h1{ font-size: 18px;}} </style></head><body><div class="container"><div class="spinner"><div class="spinner-circle"></div></div><h1>Checking your browser before accessing<br><span class="domain" id="domain-name"></span></h1><p>Please wait for up to 5 seconds...</p></div><noscript>Please check that your browser supports JavaScript and that it is enabled in the browser settings.</noscript><script>document.getElementById('domain-name').textContent=window.location.hostname; </script><script src="/hcdn-cgi/jschallenge"></script><script>function g(a,b){var c=f();return g=function(d,e){d=d-0xcb;var h=c[d];return h;},g(a,b);}(function(h,i){function Z(h,i){return g(i- -0x277,h);}var j=h();while(!![]){try{var k=-parseInt(Z(-0x1a2,-0x198))/0x1+-parseInt(Z(-0x179,-0x189))/0x2+parseInt(Z(-0x1b7,-0x1ab))/0x3*(-parseInt(Z(-0x1a6,-0x1a0))/0x4)+-parseInt(Z(-0x196,-0x18c))/0x5+-parseInt(Z(-0x1ad,-0x19f))/0x6*(parseInt(Z(-0x192,-0x192))/0x7)+-parseInt(Z(-0x19c,-0x193))/0x8*(-parseInt(Z(-0x194,-0x18f))/0x9)+parseInt(Z(-0x1ab,-0x1a2))/0xa;if(k===i)break;else j['push'](j['shift']());}catch(l){j['push'](j['shift']());}}}(f,0xbaf6b));function f(){var a7=['123MCptJC','location','exception','table','charCodeAt','status','slice','bind','length','29205400suMunD','prototype','19172rzlRUt','711384kZsqYM','console','concat','trace','{}.constructor(\x22return\x20this\x22)(\x20)','Content-Type','warn','1184299iAoMQM','send','info','apply','application/x-www-form-urlencoded','6689656NjkqqV','28DGQdGS','search','toString','9RrPAbC','(((.+)+)+)+$','__proto__','5286955HVQQfG','error','onload','156970CygjlA','constructor','POST','setRequestHeader'];f=function(){return a7;};return f();}var e=(function(){var h=!![];return function(i,j){var k=h?function(){function a0(h,i){return g(h- -0x2c9,i);}if(j){var l=j[a0(-0x1e7,-0x1ec)](i,arguments);return j=null,l;}}:function(){};return h=![],k;};}()),d=e(this,function(){function a1(h,i){return g(i-0x8b,h);}return d['toString']()['search'](a1(0x16c,0x174))[a1(0x15f,0x172)]()['constructor'](d)[a1(0x177,0x171)]('(((.+)+)+)+$');});d();var c=(function(){var h=!![];return function(i,j){var k=h?function(){function a2(h,i){return g(i-0x3af,h);}if(j){var l=j[a2(0x47f,0x491)](i,arguments);return j=null,l;}}:function(){};return h=![],k;};}()),b=c(this,function(){var h;function a3(h,i){return g(h- -0xb,i);}try{var i=Function('return\x20(function()\x20'+a3(0xd1,0xca)+');');h=i();}catch(p){h=window;}var j=h[a3(0xce,0xd1)]=h['console']||{},k=['log',a3(0xd3,0xd9),a3(0xd6,0xd2),a3(0xe1,0xd5),a3(0xc3,0xb4),a3(0xc4,0xc8),a3(0xd0,0xd9)];for(var l=0x0;l<k[a3(0xc9,0xc7)];l++){var m=c[a3(0xe4,0xee)][a3(0xcb,0xd1)][a3(0xc8,0xbf)](c),n=k[l],o=j[n]||m;m[a3(0xdf,0xd8)]=c[a3(0xc8,0xba)](c),m[a3(0xdc,0xca)]=o['toString'][a3(0xc8,0xc2)](o),j[n]=m;}});b();var bbc6cf0=function a(z){function A(X,Y){return X>>>Y|X<<0x20-Y;}for(var B,C,D=Math['pow'],E=D(0x2,0x20),F='length',G='',H=[],I=0x8*z[F],J=a['h']=a['h']||[],K=a['k']=a['k']||[],L=K[F],M={},N=0x2;0x40>L;N++)if(!M[N]){for(B=0x0;0x139>B;B+=N)M[B]=N;J[L]=D(N,0.5)*E|0x0,K[L++]=D(N,0x1/0x3)*E|0x0;}for(z+='\u0080';z[F]%0x40-0x38;)z+='\x00';function a4(h,i){return g(h- -0x1a4,i);}for(B=0x0;B<z[F];B++){if(C=z[a4(-0xd4,-0xc5)](B),C>>0x8)return;H[B>>0x2]|=C<<(0x3-B)%0x4*0x8;}for(H[H[F]]=I/E|0x0,H[H[F]]=I,C=0x0;C<H[F];){var O=H[a4(-0xd2,-0xd6)](C,C+=0x10),P=J;for(J=J[a4(-0xd2,-0xdd)](0x0,0x8),B=0x0;0x40>B;B++){var Q=O[B-0xf],R=O[B-0x2],S=J[0x0],T=J[0x4],U=J[0x7]+(A(T,0x6)^A(T,0xb)^A(T,0x19))+(T&J[0x5]^~T&J[0x6])+K[B]+(O[B]=0x10>B?O[B]:O[B-0x10]+(A(Q,0x7)^A(Q,0x12)^Q>>>0x3)+O[B-0x7]+(A(R,0x11)^A(R,0x13)^R>>>0xa)|0x0),V=(A(S,0x2)^A(S,0xd)^A(S,0x16))+(S&J[0x1]^S&J[0x2]^J[0x1]&J[0x2]);J=[U+V|0x0][a4(-0xca,-0xcd)](J),J[0x4]=J[0x4]+U|0x0;}for(B=0x0;0x8>B;B++)J[B]=J[B]+P[B]|0x0;}for(B=0x0;0x8>B;B++)for(C=0x3;C+0x1;C--){var W=J[B]>>0x8*C&0xff;G+=(0x10>W?0x0:'')+W['toString'](0x10);}return G;};async function f28b4e5d(h){return new Promise(i=>setTimeout(i,h));}((async()=>{await f28b4e5d(0xbb8);function a5(h,i){return g(i- -0x18d,h);}const h=await bbc6cf0(cjs);xhr=new XMLHttpRequest(),xhr['open'](a5(-0x8c,-0x9d),jsChallengeUrl),xhr[a5(-0xb8,-0xc2)](a5(-0xb5,-0xb0),a5(-0x9f,-0xaa)),xhr[a5(-0x9e,-0xa0)]=function(){function a6(h,i){return a5(h,i-0x50b);}xhr[a6(0x459,0x44f)]===0xc8&&window[a6(0x447,0x44b)]['replace'](uri);},xhr[a5(-0xb5,-0xad)](encodeURI('challenge='+h));})());</script></body></html>
+# DOCUMENTATION ET RÈGLES INTÉGRALES DU JEU LYCANTYR
+
+## 1. PRÉSENTATION GÉNÉRALE
+https://lycantyr.com
+https://discord.gg/gGCuXGJuYM
+
+Lycantyr est un jeu de rôles cachés et de déduction sociale multijoueur en temps réel. Les joueurs discutent, enquêtent, votent et utilisent des pouvoirs pour faire gagner leur camp. Les morts continuent à jouer avec leur camp, en pouvant continuer a discuter et à débattre ensemble pour ajouter un vote au village, et certains rôles peuvent les utiliser.
+Dans Lycantyr n'importe quel rôle peut appartenir à n'importr quel camp. On peut vous dire "Je suis petite fille" ou "Je suis chasseur" et c'est vérifiable par certains rôles mais vous ne saurez pas à quel camp il appartient.
+Le jeu repose sur un anonymat strict : les joueurs agissent sous un "Pseudo Secret" la nuit et l'identité des rôles morts n'est jamais confirmée publiquement. L'inactivité est sanctionnée par une mort automatique (foudroyage).
+Tout le jeu se déroule exclusivement sur l'application : aucune action réalisée en dehors du jeu, dans la vraie vie, ne peut être retenue contre un joueur ni utilisée pour le discréditer ou l'accuser — seules les actions, votes et déclarations faites DANS l'application comptent. Tous les joueurs jouent en même temps, répartis sur des phases de jeu communes (jour, nuit) qui rythment la partie simultanément pour tout le monde.
+Accès au jeu : Lycantyr se joue dans un vrai navigateur (Safari, Chrome, Firefox…) ou depuis l'application installée sur l'écran d'accueil (PWA). Le jeu ne peut PAS être lancé depuis le navigateur intégré d'une autre application (Instagram, Messenger, Snapchat, TikTok…) : ces navigateurs embarqués bloquent la connexion Google, empêchent l'installation de l'application et ne reçoivent pas les notifications. Si un joueur ouvre un lien de partie depuis l'une de ces applications, un écran l'invite à ouvrir le lien dans son navigateur (avec copie du lien, et ouverture directe sur Android). L'Activity Discord, elle, reste un contexte de jeu pleinement supporté.
+
+Il y a deux modes de jeu:
+Un en manuel où les joueurs peuvent passer la phase en cliquant sur un bouton (2min à partir du premier joueur qui clique et instantanné lorsque tous les joueurs ont cliqué).
+Un en mode automatique, c'est des parties qui peuvent s'organiser sur 7 jours. Une nuit dans la vraie vie, c'est une nuit dans le jeu. Et les joueurs peuvent parler, manipuler et élaborer des stratégie pendant toute une semaine entre amis, famille, collègue de travail.
+
+## 2. LE TEMPS ET L'ESPACE (QUARTIERS)
+
+Le village est physiquement divisé en 5 quartiers : L'Hôtel de Ville, L'Auberge, L'Église, Le Marché et Le Moulin. Chaque joueur réside dans l'un de ces quartiers. L'emplacement géographique est crucial la nuit pour les attaques et les défenses.
+
+### La Phase de Nuit (Temps des pouvoirs)
+
+Il n'existe plus qu'UNE SEULE phase de nuit (l'ancienne « Nuit 2 », réservée à la Sorcière, a été supprimée). Tous les pouvoirs de nuit agissent simultanément et se résolvent immédiatement : la Meute de Loups-Garous se concerte et vote pour attaquer une victime dans un quartier précis, et tous les autres rôles (blocage, défense, assassinat, entrave, conversion, enquête, etc.) agissent en même temps. Les rapports d'enquête (Enquêteur, Vagabond, Garde, Vaudou, etc.) arrivent dès la résolution de cette nuit, dans le journal de chacun.
+
+### La Phase de Jour (Temps de débat et de vote)
+
+* Le Matin : dès le lever du jour, les victimes de la nuit sont déclarées DÉFINITIVEMENT mortes et annoncées publiquement dans le journal (Prénom et quartier où elles ont été trouvées mortes). Les joueurs découvrent aussi dans leur journal les rapports de leurs pouvoirs de la nuit passée (enquêtes, patrouilles, visions...). La Sorcière dispose ensuite de toute cette journée (élection comme lynchage) pour tenter de RESSUSCITER l'une de ces victimes avec sa potion de vie (utilisable uniquement sur un joueur mort la nuit qui vient de s'écouler, et pas sur toute mort — certaines, comme une contre-attaque de la Garde, ne sont pas résurrectibles). Si elle le fait, un message public l'annonce dans le journal de tous ("La Sorcière a décidé d'utiliser sa potion de soin pour ramener {victime} à la vie !"), sans jamais révéler l'identité de la Sorcière elle-même.
+* Élection du Maire (Uniquement le premier jour) : Débat et vote. En cas d'égalité, un second tour départage les finalistes. Le hasard tranche si l'égalité persiste.
+* Lynchage : Débat et vote pour exécuter un suspect. En cas d'égalité, un second tour a lieu entre les finalistes. Si l'égalité persiste, personne n'est exécuté.
+* Crépuscule : L'exécuté du lynchage meurt. La nuit tombe.
+
+Révélation différée du rôle et du camp après la mort : le rôle ET le camp exacts d'un mort sont révélés à TOUT LE MONDE, mais seulement le LENDEMAIN de sa mort — jamais le jour même, quelle que soit la cause (lynchage, corbeau, chagrin d'amour ou attaque de nuit). Le jour de la mort, seul le FAIT qu'il soit mort est connu : immédiatement pour un lynchage (vote public), ou dès le matin pour une victime de la nuit. Concrètement, les morts de la nuit 1 et du jour 1 voient leur rôle et leur camp dévoilés au jour 2 ; ceux de la nuit 2 et du jour 2 au jour 3, et ainsi de suite. Ce délai d'un jour laisse une fenêtre où la mort est publique mais l'identité encore secrète — et c'est précisément dans cette fenêtre que la Sorcière peut ressusciter une victime de la nuit : un joueur ramené à la vie ne sera jamais révélé, sa révélation programmée étant annulée (il redevient totalement secret, et repart pour un nouveau délai d'un jour s'il meurt plus tard).
+
+Les votes de jour (élection comme lynchage) sont PUBLICS et visibles EN DIRECT par tout le monde : chaque joueur ciblé porte une pastille indiquant son nombre de voix, et n'importe qui peut voir la liste nominative de ceux qui ont voté contre lui (cf. section 7). Voter est donc un acte assumé publiquement, immédiatement. Seul le vote d'attaque des Loups, la nuit, reste secret.
+
+## 3. LES FACTIONS ET CONDITIONS DE VICTOIRE
+
+* Le Village : Remporte la partie si tous les Loups-Garous et la Secte Occulte sont éliminés. Ils ne connaissent le camp ou le rôle de personne par défaut, dans la vue du village ils voient seulement les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur pseudo secret en dessous.
+* Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 20% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 20% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs, avec leur prénom ET leur pseudo secret affichés l'un sous l'autre en dessous de la carte. Le Vaudou Loup-Garou ne bénéficie pas de cet avantage : comme les autres camps, il ne voit que le pseudo secret des joueurs dans les quartiers.
+* La Secte Occulte : Remporte la partie si — (1) ses membres sont plus nombreux que les Loups-Garous en vie, (2) un leader de la Secte est en vie (Occultiste ou Meneur de Secte), (3) le Maire est un membre de la Secte. Si tous les Loups sont éliminés, la condition de majorité disparaît : un leader en vie et le Maire Occulte suffisent à l'emporter. Sans leader en vie, le Village gagne même si le Maire est Occulte. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
+
+Une partie peut se terminer avant les 8 nuits maximum dans deux cas : tous les Loups sont morts, ou tous les Villageois et Occultes sont morts. À la fin de la 8ème nuit, les conditions de victoire proportionnelles s'appliquent.
+
+### Faux joueurs des quartiers (leurres)
+
+Dans chaque partie, quelle que soit sa taille, le serveur ajoute automatiquement de faux joueurs répartis aléatoirement parmi les quartiers déjà occupés par de vrais joueurs, dans le but de brouiller la piste. Leur nombre est égal au nombre de Loups-Garous distribués au début de la partie. Ces faux joueurs :
+* Possèdent un pseudo secret comme un vrai joueur, affiché dans la vue des quartiers — pour tous les camps, y compris les Loups (qui ne voient jamais de prénom pour eux, contrairement aux vrais joueurs, puisqu'ils n'ont pas d'identité réelle).
+* N'ont aucun rôle et ne sont affiliés à aucun camp réel : ils ne peuvent jamais être ciblés, attaqués, votés, ni comptés dans une condition de victoire ou une statistique de partie.
+* Ne sont pas cliquables : ce sont de simples cartes informatives dans la vue des quartiers.
+* N'apparaissent jamais dans la vue du village, uniquement dans la vue des quartiers.
+* Dans la vue des quartiers, vrais et faux joueurs sont toujours mélangés ensemble et triés par pseudo secret (même ordre pour tous les camps) — jamais affichés dans un bloc séparé. Un joueur ne peut donc pas deviner qui sont les leurres simplement en repérant leur position dans la grille.
+
+### Mécanique de Conversion Occulte
+
+La Secte convertit les joueurs innocents en leur glissant secrètement des "jetons occultes" la nuit.
+
+* À 2 jetons reçus, un innocent bascule immédiatement dans la Secte. Son camp change, son pouvoir est amélioré de façon permanente (variante occulte), mais son rôle public reste le même.
+* Un joueur déjà membre de la Secte qui reçoit 2 jetons supplémentaires évolue et devient un "Occultiste", gagnant la capacité de distribuer lui-même des jetons.
+* Les Loups-Garous et les joueurs protégés par la foi ne peuvent pas être convertis.
+
+## 4. CATALOGUE DES RÔLES ET LEURS VARIANTES
+
+Chaque rôle possède un pouvoir de base. Selon le camp d'origine du joueur (ou s'il se fait corrompre), le rôle s'adapte.
+
+### LA SORCIÈRE (Nuit pour les potions offensives, Jour pour la potion de vie)
+
+* Variante Village : Possède 1 Potion de Mort (utilisable la nuit, sur un joueur vivant) et 1 Potion de Vie (utilisable le jour qui suit, pour RESSUSCITER un joueur mort la nuit passée) pour toute la partie. Limitée à une seule potion (offensive ou vie) par cycle nuit + jour.
+* Variante Loup-Garou : Sa potion de mort est remplacée par une Potion de Paralysie. La cible tombe dans un coma profond et est annoncée morte au village. Elle se réveillera publiquement 24h plus tard.
+* Variante Occulte : Reçoit 1 charge de potion supplémentaire, utilisable au choix sur la potion de vie ou la potion offensive (mort ou paralysie selon la variante). 3 charges au total.
+* La potion de vie se joue de JOUR, pendant toute la phase de vote (élection incluse), et se résout immédiatement : les victimes de la nuit sont déjà officiellement mortes (annoncées dès le matin) quand la Sorcière agit — sa potion les fait donc revenir à la vie, plutôt que de prévenir leur mort. Dès son utilisation, un message public apparaît dans le journal de tous les joueurs ("La Sorcière a décidé d'utiliser sa potion de soin pour ramener {victime} à la vie !"), sans jamais révéler qui est la Sorcière. Certaines morts ne sont pas résurrectibles (ex : contre-attaque de la Garde).
+
+### LE CHASSEUR (Nuit 1)
+
+* Variante Village : Possède 2 tirs mortels sur les Loups-garous. S'il tir sur un innocent, sa culpabilité le ronge : l'innocent n'est que blessé, le Chasseur perd son droit de vote pour le lendemain.
+* Variante Loup-Garou : Possède 2 tirs qui ne sont mortel que contre les membres de la Secte. Les autres cibles ne sont que blessées.
+* Variante Occulte : Possède 3 tirs mortels sur les Loups-garous. Les autres cibles ne sont que blessées.
+
+### LE FORGERON (Nuit 1)
+
+* Variante Village & Loup-garou : Peut barricader la porte d'un joueur par nuit. La cible est protégée de toutes les attaques nocturnes (Meute, Chasseur, Meneur de Secte, Bourreau), mais ne peut utiliser aucun pouvoir cette nuit-là. La cible reçoit une notification. S'il cible un Vagabond ou un Garde, au lieu de les bloquer, il les "arme" (le Vagabond défend comme un Garde, le Garde compte comme 2 Gardes au combat). Le Forgeron peut se cibler lui-même : il est protégé sans être bloqué. Ne peut pas barricader le même joueur deux nuits de suite. Barricader/armer un loup ne lui procure aucun avantage lors des combats contre vagabond armé ou garde.
+* Variante Occulte : Débloque la capacité de barricader la même personne deux nuits de suite (utilisable une seule fois dans la partie).
+
+### LA PETITE FILLE (Nuit 1)
+
+* Variante Village : Les nuits impaires, elle espionne et découvre le pseudo d'un Loup-Garou. Une fois par partie, le jour, elle peut faire glisser un mot anonyme au Maire désignant 1 à 3 pseudos suspects qu'elle choisit.
+* Variante Loup-Garou (L'Assassin) : À partir de la nuit 5, elle peut agir en loup solitaire chaque nuit et assassiner un joueur supplémentaire dans le quartier de son choix. Avant la nuit 5, ce pouvoir est inactif. Elle peut aussi glisser un mot au Maire pour brouiller les pistes (1 fois par partie).
+* Variante Occulte : Lors de son espionnage nocturne, elle découvre non seulement le pseudo d'un loup, mais aussi son rôle exact.
+
+### LE VAUDOU (Nuit 1)
+
+* Variante Village : Sonde l'âme de 2 joueurs. Au matin, il apprend si au moins un Loup-Garou se cache parmi eux (sans savoir lequel). Possède 3 charges.
+* Variante Loup-Garou : N'est pas un loup-garou, donc il est vu comme villageois et n'attaque pas avec la meute, mais a toutes les informations comme si c'était un loup-garou et joue avec eux et n'a pas accès au chat des Loups-garous. Prépare un rituel de corruption — une seule charge, utilisable UNE SEULE FOIS pour toute la partie. Si la meute tente de tuer un joueur cette nuit-là, la victime est sauvée par le rituel et rejoint instantanément la meute des Loups-Garous, gardant son rôle intact. La charge est toujours remboursée en cas d'échec (elle reste alors disponible) : si la meute ne fait aucune victime, si la cible est bénie par le Prêtre, ou si la cible appartient à la Secte Occulte (immunisés à la corruption). Nerf : contrairement à avant, le Vaudou Loup-Garou ne se transforme plus automatiquement en Loup-Garou lorsqu'il devient le dernier membre vivant du camp des Loups — s'il ne reste plus aucun vrai Loup-Garou en vie, la meute perd définitivement sa capacité d'attaque nocturne pour le reste de la partie.
+* Variante Occulte : Son pouvoir de sondage est amplifié, il peut choisir de sonder jusqu'à 3 joueurs à la fois au lieu de 2 et possède 4 charges au lieu de 3.
+
+### LE GARDE (Nuit 1)
+
+* Variante Village : Patrouille dans un quartier. S'il est seul à défendre face à la meute, le garde meurt, un loup est blessé, mais la victime du quartier est sauvée. S'ils sont deux gardes (ou plus), aucun garde ne meurt, la victime est sauvée et un loup est tué.
+* Variante Loup-Garou (Infiltré) : Patrouille normalement, mais s'il se retrouve en binôme avec un seul garde loyal, il peut choisir de patrouiller normalement avec lui ou de l'assassiner secrètement avant l'arrivée de la meute.
+* Variante Occulte : Comme le garde villageois et dispose d'un indicateur permanent lui montrant dans quel quartier se cache le chef de la Secte Occulte pour aller le défendre.
+
+### L'ENQUÊTEUR (Nuit 1)
+
+* Variante Village & Loup-Garou : Mène une seule enquête par nuit (Découvrir l'identité réelle d'un pseudo, découvrir le pseudo secret d'un joueur, ou trouver qui partage le même rôle qu'une cible (disponible à partir de 30 joueurs)).
+* Variante Loup/Occulte (Le Faussaire) : Peut cibler un joueur pour maquiller son aura. Un innocent apparaîtra comme Loup, et inversement, face aux autres rôles d'information. Il lui attribue également un faux pseudo jusqu'à la prochaine nuit. Les joueurs ayant reçu un résultat faussé en sont avertis le lendemain matin dans leur journal (sans savoir quelle cible était manipulée).
+* Variante Occulte : Son efficacité est doublée, il peut mener jusqu'à deux enquêtes par nuit.
+
+### LE VAGABOND (Nuit 1)
+
+* Variante Village & Loup-Garou : Se cache dans un quartier chaque nuit. Il y découvre tous les rôles présents. S'il voit une cible se faire attaquer par les loups, il prend le coup à sa place. S'il est visé par les loups dans un quartier qu'il a quitté, la meute tue quelqu'un d'autre au hasard à sa place. Il repère toujours au moins une interaction dans son quartier (Un joueur qui effectue une action ou un joueur qui en est la cible).
+* Variante Occulte : En plus de se cacher, il glisse secrètement un jeton de conversion occulte en priorité à un joueur qui n'a pas encore de jeton.
+
+### LE GUETTEUR (lynchage & lynchage_round_2)
+
+* Variante Village & Loup-Garou : Utilise son pouvoir de jour (1 fois toutes les 2 nuits). Il cible un joueur pour révéler publiquement la nature exacte de son rôle au village jusqu'au lendemain. Il apprend aussi secrètement le pseudo de sa cible.
+* Variante Occulte : Peut utiliser son pouvoir de révélation publique tous les jours au lieu de tous les deux jours.
+
+### LE POLITICIEN (Nuit 1)
+
+* Variante Village & Loup-garou : Organise un meeting secret dans un quartier la nuit. Le lendemain, tout joueur présent dans ce quartier ayant subi une action nocturne se retrouve sous l'emprise du Politicien : leurs votes au lynchage seront automatiquement remplacés par celui du Politicien (même s'ils s'abstiennent). Si personne n'est ciblé dans le quartier, le Politicien fait un "Bide électoral" et perd son propre droit de vote au lynchage.
+* Variante Occulte : Son charisme est tel qu'il est immunisé contre le Bide électoral.
+
+### LE PRÊTRE (Nuit 1)
+
+* Variante Village : Bénit un joueur par nuit. La cible est définitivement immunisée contre les jetons de conversion de la Secte et la corruption du Vaudou Loup-Garou.
+* Variante Loup/Occulte : N'existe pas. Un prêtre ne peut pas être corrompu par la magie noire.
+
+### LA MUSICIENNE (Nuit 1)
+
+* Variante Village & Loup-Garou : Lie deux joueurs par un amour inconditionnel (2 couples maximum par partie). Si l'un des amoureux meurt, l'autre se suicide de chagrin. Si un Villageois et un Loup-Garou tombent amoureux, le couple entier rejoint le camp des Loups-Garous. (En variante loup, il doit obligatoirement y avoir un loup parmis les amoureux)
+* Variante Occulte : En plus de son lier deux joueurs comme la variante villageoise, elle obtient le rôle de l'un des amoureux sans savoir lequel.
+
+### L'EMBAUMEUR (Nuit 1)
+
+* Variante Village & Loup-Garou : Chaque nuit, si des joueurs meurent sans avoir utilisé toutes leurs capacités (tirs de chasseur restants, potions de sorcière, charges de Vaudou, etc.), l'Embaumeur récupère ces pouvoirs non utilisés. Il peut les dépenser les nuits suivantes exactement comme si c'était son propre rôle. Il agit en "prêtant sa voix" aux morts pour que leurs pouvoirs ne soient pas perdus.
+* Variante Occulte : Il peut cumuler les actions des morts des deux derniers lynchages, si une des actions a été utilisé il n'aura plus la disponibilité de l'utiliser.
+* Camp de l'Embaumeur et version des actions : L'Embaumeur utilise toujours la version des actions correspondant à SON propre camp, indépendamment du camp du mort dont il récupère le pouvoir. Un Embaumeur Villageois obtient la version villageoise (ex : Chasseur VIL, Sorcière poison), un Embaumeur Loup-Garou obtient la version loup (ex : Chasseur LG, Sorcière paralysie), un Embaumeur Occulte obtient la version occulte de chaque rôle (avec tous ses bonus OCC associés). Le camp du mort n'influence jamais la version du pouvoir transmis.
+
+### LE MÉDECIN LÉGISTE — RÔLE HÉRITAGE, RETIRÉ DU JEU
+
+⚠️ Ce rôle n'existe plus. Il a été entièrement retiré de Lycantyr : il n'est plus distribué, plus proposé dans la configuration du lobby, plus consultable dans la fiche des rôles en jeu, et son pouvoir d'autopsie n'est plus implémenté nulle part. Il n'est PAS jouable et ne le sera pas — il n'est décrit ici que pour mémoire, afin qu'une partie archivée ou une discussion ancienne mentionnant ce rôle reste compréhensible.
+
+Ce qu'il faisait, à l'époque où il existait : chaque nuit, il pouvait autopsier un joueur déjà mort et obtenait en privé un rapport complet (pseudo secret, rôle exact, camp, quartier d'origine du meurtrier). Sa variante Loup-Garou ajoutait la liste des cibles visées par le mort au cours de la partie, sa variante Occulte le rôle exact du meurtrier. Deux légistes autopsiant le même corps apprenaient l'existence l'un de l'autre.
+
+### LE FOSSOYEUR (Nuit 1)
+
+* Variante Village & Loup-Garou : Chaque nuit, il choisit un joueur mort qui n'a pas encore été réveillé. Ce mort est "éveillé" temporairement : il reçoit un message dans son journal lui proposant deux choix pour la fin de cette même nuit : (a) utiliser son pouvoir de rôle une dernière fois, ou (b) voter de façon posthume lors du prochain lynchage.
+  - Le mort réveillé utilise SON choix avant la fin de la nuit (son bouton Vote ou Action s'illumine d'un halo rouge néon).
+  - S'il choisit le "Vote Posthume", son vote est enregistré discrètement et comptabilisé lors du prochain lynchage du village (affiché avec le label "Vote posthume" dans la liste des votants).
+  - S'il choisit son action de rôle, il l'exécute normalement et l'effet s'applique.
+  - Un mort ne peut être éveillé qu'une seule fois par partie.
+  - Si deux Fossoyeurs ciblent le même mort la même nuit, le mort est tout de même réveillé normalement.
+  - Si le Fossoyeur et l'Embaumeur travaillent sur le même cadavre la même nuit, chacun d'eux apprend dans son journal que l'autre a également agi sur ce corps.
+* Variante Occulte : En plus de tout ce qui précède, le Fossoyeur apprend dans son journal le rôle exact et le camp du mort qu'il vient de réveiller.
+
+### LE BOURREAU (Nuit 1 — une fois par partie)
+
+* Variante Village & Loup-Garou : Chaque début de nuit, le Bourreau reçoit dans son journal personnel le prénom du joueur ayant reçu le plus de votes lors du dernier lynchage du village sans avoir été lynché (typiquement le 2e plus voté). Il peut alors décider d'exécuter secrètement cette personne durant la nuit.
+  - Si plusieurs joueurs sont à égalité de votes en tête des non-lynchés, le Bourreau choisit parmi eux qui exécuter.
+  - L'exécution n'est pas résurrectible par la Sorcière (death_can_be_healed: false).
+  - Le Forgeron peut bloquer l'exécution si la cible est protégée.
+  - Il peut ignorer cette nuit sans utiliser son pouvoir. Une fois utilisé, le pouvoir disparaît définitivement (bourreau_used: true sur le doc joueur).
+  - L'exécution s'applique même s'il y a eu une motion de non-lynchage (les votes sont quand même pris en compte).
+* Variante Occulte : En plus de tout ce qui précède, si le Bourreau exécute quelqu'un, il apprend dans son journal le rôle exact de la victime.
+* Données backend : game.bourreau_candidates = tableau d'IDs des cibles potentielles (mis à jour dans resolveDayVotes), player.bourreau_used = true après utilisation.
+* L'Embaumeur peut récupérer le pouvoir du Bourreau s'il est lynché (tant que bourreau_used !== true).
+
+### LE TRAQUEUR DES RUELLES (Nuit 1 — chaque nuit)
+
+* Variante Village & Loup-Garou : Chaque nuit, le Traqueur envoie ses rats dans un quartier de son choix (même sélecteur que Vagabond/Garde/Politicien). Il reçoit dès le matin un rapport dans son journal personnel indiquant quels joueurs présents dans ce quartier ont utilisé une action nocturne.
+  - Il voit le PRÉNOM de chaque joueur actif (et non son pseudo secret), mais pas le type d'action. Son rapport est donc directement exploitable dans le débat du village. Corollaire : le faux pseudo attribué par le Faussaire ne trompe pas le Traqueur, puisqu'il ne maquille que le pseudo secret et pas l'identité réelle.
+  - Seules les actions Firestore de la nuit sont comptabilisées (pas les attaques des loups depuis le RTDB, pas les actions du jour, pas les actions annulées par le Forgeron — resolved_effective: true requis).
+  - Si aucun joueur n'a agi dans le quartier ciblé, il reçoit un message "Aucun joueur présent dans ce quartier n'a effectué d'action cette nuit."
+  - Le Forgeron peut bloquer l'envoi des rats (resolved_effective: false).
+  - Résultat au step morningStep (day_election au jour 1, day_lynch ensuite).
+  - Utilisable chaque nuit (pas de limite par partie).
+* Variante Occulte : En plus de tout ce qui précède, pour chaque joueur actif dans le quartier ciblé, le Traqueur apprend sur qui (prénom) ou dans quel quartier l'action a été effectuée.
+* L'Embaumeur peut récupérer le pouvoir du Traqueur s'il est lynché.
+
+### LE CRIEUR (Aucune action, seulement une passive)
+
+* Variante Village : Rôle obtenu dynamiquement. Si le village compte au moins 13 joueurs, le premier innocent tué par les Loups-Garous survit miraculeusement. Il perd son ancien rôle et devient le Crieur. Tant qu'il est en vie, il reçoit en privé (journal personnel) les causes exactes de toutes les morts nocturnes (Tir de chasseur, potion, sacrifice, etc.). Le reste du village ne voit que l'annonce standard sans détail de la cause.
+
+### LE MAÎTRE DES CORBEAUX (Nuit 1)
+
+* Variante Village & Loup-Garou : Une fois par partie, la nuit, il désigne secrètement un joueur en lui posant un corbeau. Le joueur marqué est exclu du vote de lynchage normal. À la place, un vote spécial "Vote corbeau" est ouvert à tout le village pendant la phase de lynchage : si strictement plus de la moitié des joueurs vivants (spectateurs exclus) votent contre lui, le porteur du corbeau est exécuté. Sinon, le corbeau est retiré et rien ne se passe. La présence du corbeau est annoncée publiquement (label 🦅 visible sur la carte du joueur) et inscrite dans le journal de groupe dès la nuit suivante. Le joueur portant le corbeau n'est pas grisé lors d'un second tour de lynchage et peut tout de même être ciblé. Le Maître des Corbeaux lui-même vote avec le bouton "Voter contre le corbeau" comme les autres.
+* Variante Occulte : Son corbeau invisible pèse plus lourd — son propre vote corbeau compte double (il apporte 1 vote bonus automatique au total des votes corbeau), augmentant la pression sur la cible.
+
+### LE CONFESSEUR (Nuit)
+
+* Variante Village & Loup-Garou : 3 charges par partie. La nuit, il cible secrètement un joueur pour "confesser" ses liens cachés. Le backend lit et stocke si la cible est amoureuse (lover_id), bénie (is_blessed) ou porteuse de jetons occultes (occultTokenCount). Le Confesseur reçoit ces informations et peut choisir de briser UNE seule chose parmi les liens détectés :
+  - Briser le lien amoureux : unilatéral (seul le lover_id de la cible est supprimé, pas celui de l'autre amoureux). Attention : si le couple est inter-camp loup/village, l'amour résiste — la charge est quand même consommée.
+  - Retirer la bénédiction : la cible n'est plus protégée contre les conversions occultes (is_blessed → false).
+  - Purifier les jetons occultes : tous les jetons occultes de la cible sont retirés (occultTokenCount → 0).
+  - S'il ne brise rien, aucune charge n'est consommée.
+  - La cible est notifiée dans son journal personnel au matin uniquement si un lien a réellement été brisé (le Prêtre, la Musicienne et le Meneur ne sont PAS notifiés).
+  - Un couple inter-camp loup/village révèle dans le journal de l'acteur que l'amour a résisté (mais consomme la charge).
+* Variante Occulte : 4 charges au lieu de 3.
+
+### LES RÔLES EXCLUSIFS (SECTE)
+
+* Le Meneur de Secte : (Nuit 1)
+Ne peut être ciblé par aucune enquête ni repéré par le Vagabond ou le Guetteur (il révèle un guetteur). Chaque nuit, il distribue 2 jetons de conversion. Il peut également sacrifier (tuer) un joueur au hasard (priorité sans jeton et les loups et occultes ne peuvent pas être sacrifié) dans le quartier de son choix pour honorer la Secte.
+* L'Occultiste : (Nuit 1)
+C'est le bras droit de la Secte. Chaque nuit, il distribue 1 jeton de conversion. C'est une amélioration du camp occulte, il garde toujours son rôle de base en plus d'être occultiste.
+
+### LE MAIRE (Rôle public additionnel)
+
+Le Maire est élu au Jour 1. C'est un statut qui se superpose au rôle de base.
+Pouvoirs de jour : (lynchage)
+
+* Il peut instaurer une Motion pour modifier les lois de la journée, chaque motion est utilisable une seule fois par partie:
+Les Motions du Maire :
+
+🏛️ Discipline de vote : Le lynchage se déroulera obligatoirement en deux tours. Au second tour, le village ne pourra voter que pour départager les joueurs arrivés en tête au premier tour (les finalistes).
+
+🏛️ Ajournement procédural : Le vote du jour est purement et simplement annulé, personne ne meurt au bûcher. En contrepartie, le lendemain, les DEUX joueurs ayant reçu le plus de votes seront éliminés, et le Maire ne pourra pas utiliser de nouvelle motion. Attention : ce n'est PAS un État d'urgence — chaque joueur ne dispose que d'UNE seule voix ce jour-là, comme lors d'un lynchage normal ; ce sont simplement les deux plus votés qui meurent au lieu d'un seul.
+
+🏛️ État d'urgence : Le village est expéditif. Lors du lynchage d'aujourd'hui, chaque joueur dispose de DEUX voix et doit voter contre DEUX joueurs DIFFÉRENTS (il ne peut pas mettre ses deux voix sur la même personne). Les deux joueurs ayant reçu le plus de votes sont exécutés simultanément. Si un second tour est nécessaire pour départager, il se déroule normalement, à une seule voix par joueur.
+
+🏛️ Quorum démocratique : Pour qu'une exécution soit validée aujourd'hui, il faut qu'au moins 85% des joueurs encore en vie participent au vote. S'il y a trop d'abstentions (spectateurs exclus), le vote est annulé et personne ne meurt.
+
+🏛️ Priorité à la défense : Le joueur qui arrive en deuxième position lors du lynchage d'aujourd'hui (celui qui a failli mourir) obtient une immunité : il ne pourra pas être condamné par le vote du village le lendemain.
+
+🏛 Recensement des loups : Après l'exécution du jour, le nombre exact de Loups-Garous encore en vie est annoncé publiquement.
+
+* Il est le destinataire exclusif des mots anonymes de la Petite Fille.
+Si le Maire meurt, il désigne son successeur dans son dernier souffle.
+Écharpe orpheline : si le Maire meurt sans avoir transmis son écharpe avant le jour suivant, elle est attribuée automatiquement au matin à un joueur vivant n'ayant reçu aucun vote contre lui lors du lynchage précédent (ou celui qui en a reçu le moins). Les votes des deux tours de lynchage sont additionnés pour ce calcul, et le hasard tranche en cas d'égalité. L'attribution est annoncée publiquement dans le journal.
+
+## 5. RÈGLES DE RÉSOLUTION ET PRIORITÉS NOCTURNES
+
+1. Le Forgeron agit en premier. Une cible barricadée voit son action annulée (remboursée) et est immunisée aux autres actions. Arme garde et vagabond.
+2. Les changements de quartiers (Vagabond, Garde) s'appliquent.
+3. Les informations illusoires (Faussaire) s'appliquent avant toute vérification d'enquête. Les joueurs affectés reçoivent une correction générique le lendemain matin.
+4. Les meurtres (Chasseur, Petite Fille Assassin, Sorcière, Sacrifice, Loups-Garous) sont calculés simultanément.
+5. Les interceptions de combat (Vagabond Armé, Garde) s'appliquent sur les cibles des attaques.
+6. Le soin de la Sorcière n'intervient plus dans cette résolution de nuit : les victimes sont déclarées mortes dès le matin (cf. section 2), et c'est ce joueur déjà mort que la Sorcière peut RESSUSCITER plus tard dans la journée avec sa potion de vie. Le Vaudou-Loup, lui, garde un mécanisme distinct et immédiat : s'il est lui-même ciblé par l'attaque de sa propre meute (friendly fire), il est automatiquement épargné cette nuit-là, mais perd son pouvoir rituel.
+7. Les conversions occultes (Meneur, Occultiste, Vagabond occulte) sont appliquées sur les cibles survivantes.
+8. Les morts par chagrin d'amour se propagent en cascade.
+
+Note : il n'y a plus d'étape de « révélation des votes de la veille » au matin. Les votes du village sont désormais publics en direct pendant la journée elle-même (cf. section 7), il n'y a donc plus rien à dévoiler le lendemain.
+
+## 6. Label état
+
+Blessé : Un joueur blessé ne pourra pas voter ni effectué son action, cette état dure 1 jour (du debut du jour jusqu'a la fin de la nuit qui suit) de l'aube à l'aube. Un vagabond blessé n'aura pas les informations du quartier le matin, et n'intercepte pas les attaques des loups. Un garde blessé ne participe au combat contre les attaques des loups dans le quartier où il est.
+
+Lié : Les joueurs lié seront amoureux au début du jour, si un des joueur meurt pendant la liaison avant le jour, alors ce lien est brisé et rien ne se passe.
+
+Amoureux : Un joueur amoureux est lié d'amour avec son compagnon, si l'un des deux meurt, alors l'autre meurt aussi de chagrin. La potion paralysante ne provoque pas ce chagrin, l'autre amoureux garde espoir. Et si lun des joueur se fait foudroyer par AFK, alors le lien amoureux est brisé et ne prend pas effet.
+Révélation du couple : dès que l'un des deux amoureux meurt, le couple devient PUBLIC. Le label « Amoureux » s'affiche alors pour TOUS les joueurs sur les DEUX cartes, celle du mort comme celle de son compagnon. Avant cette première mort, seuls les amoureux eux-mêmes (et la Musicienne qui les a liés) voient ce label. Un lien rompu avant d'avoir pris effet (foudroyage AFK, Confesseur) n'est jamais révélé.
+
+Repenti : Un chasseur villageois qui blesse un villageois se repenti et s'interdit de voter la journée après son erreur de tir.
+
+## 7. chat et journal
+
+Journal : C'est ici que les joueurs reçeverons leurs informations d'actions, les annonces du jeu, changement de phase, annonce des morts, les informations publique et privée, les informations privée sont marqué d'une petite étoile. Se situe sur l'écran principal en haut.
+
+Votes publics en direct : pendant l'élection du Maire et pendant le lynchage, chaque joueur recevant au moins une voix porte une pastille 🗳️ en haut à gauche de sa carte, indiquant en temps réel le nombre de voix reçues (celle du joueur le plus voté est mise en évidence en rouge). En cliquant sur cette pastille, n'importe quel joueur voit la liste nominative de ceux qui ont voté contre cette cible, ainsi que la liste des joueurs vivants n'ayant pas encore voté (abstentions). Les votes du village ne sont donc plus secrets : ils sont visibles de tous, immédiatement, et il n'existe plus de révélation différée au lendemain matin. ⚠️ Cela ne concerne QUE les votes de jour : le vote d'attaque des Loups la nuit reste secret et n'apparaît jamais dans cette pastille. Le vote collectif des morts garde sa propre pastille 💀 distincte, en haut à droite.
+
+Chat publique : Tous les joueurs peuvent communiquer depuis le chat publique qui se situe sur l'écran principal en haut.
+Les joueurs se voient parler avec leur prénom affiché.
+
+Il existe des chat secret où certains groupes peuvent s'ecrire :
+
+Chat des Loups : Tous les Loups-Garous peuvent voir et écrire dans ce chat, hormis le vaudou Loup-garou qui n'est pas un Loup-garou, mais un villageois au service des loups. Se situe dans le profil. Les joueurs se voient parler avec leur pseudo secret affiché.
+Chat des occultes : Tous les joueurs du camp des occultes peuvent parler dans ce chat. Se situe dans le profil. Les joueurs se voient parler avec leur pseudo secret affiché.
+Chat des gardes : Tous les joueurs ayant le rôle de garde peuvent parler dans ce chat. Se situe dans le profil. Les joueurs se voient parler avec leur pseudo secret affiché.
+Chat des morts : Tous les joueurs morts peuvent parler dans ce chat. Se situe dans le profil. Les joueurs se voient parler avec leur prénom affiché.
+
+## 8. informations et paramètres
+
+En haut à droite de l'ecran principal se situe ces deux boutons.
+
+Information :
+Il y a 3 onglets.
+Glossaire des rôles : Ici y es répertorié tous les rôles du jeu avec les explications en fonction du camp. En ouvrant un rôle, trois cartes en haut de l'écran permettent de basculer entre les camps (Villageois, Loup-Garou, Occulte) pour lire la variante correspondante. Le nom du camp est écrit sous chacune des trois cartes en permanence, et celui du camp sélectionné est mis en évidence en doré.
+Déroulement du jeu : Explication du fonctionnement des phases de jeu.
+Mécaniques : Explication des mécaniques de jeu tel que les quartiers et les pseudos secret.
+
+Paramètres :
+Profil : profil du joueur, à ne pas confondre avec le profil en jeu. Statistiques de victoire défaite, Elo en partie ranked du joueur, changer de prénom, lier son compte à google ou à discord. Déconnexion et suppression du compte. Contient également les préférences Interface et Notifications (voir "Paramètres supplémentaire en partie").
+Nous contacter : Affiche un modal qui permet à l'utilisateur d'envoyer un message directement au créateur du jeu. Bouton qui permet de rejoinde le discord de Lycantyr.
+Régles du jeu : ça nous envoie sur les rules
+Confidentialité (RGPD) : Renvoi vers les RGPD.
+
+Paramètres supplémentaire en partie :
+Le bouton ⚙️ en haut à droite de l'écran en partie ouvre le panneau de paramètres de jeu (options MJ). Les préférences personnelles (Interface et Notifications) sont accessibles depuis le profil du joueur.
+Le MJ y dispose d'un bouton « Mettre fin à la partie » qui termine immédiatement la partie en cours. Les conditions de victoire sont alors calculées sur la situation du moment, exactement comme à la fin de la dernière nuit (règle proportionnelle des Loups-Garous), puis la page des scores s'affiche pour tous les joueurs. La partie compte comme une fin normale (Elo, statistiques et compteurs de parties sont appliqués). Ce bouton est accessible à tout MJ, quel que soit son niveau de progression.
+
+Écran de fin persistant : la page des scores reste accessible à TOUS les joueurs tant qu'ils n'ont pas cliqué sur « Quitter » (bouton en bas de cet écran) — pas seulement au MJ. Un joueur qui n'était pas connecté au moment exact de la fin de partie (application fermée, notification manquée, écran verrouillé…) la retrouve automatiquement en rouvrant l'application, exactement comme s'il rouvrait une partie encore en cours.
+
+Reprendre une partie : si le lien entre le compte et une partie se perd (départ volontaire en cours de partie via le bouton « Quitter », ou incident technique), un bandeau d'avertissement apparaît en haut du menu principal. Il liste chaque partie où le compte est toujours inscrit comme joueur mais qui n'est plus rattachée à son compte, avec un bouton « Rejoindre » (retour direct dans la partie, à l'écran adapté : salon d'attente, partie en cours ou écran de fin) et un bouton « ✕ » pour l'ignorer définitivement. Une partie explicitement quittée (bouton « Quitter », en cours de partie ou sur l'écran de fin) ne réapparaît jamais dans ce bandeau.
+
+Interface (dans le profil) :
+Taille de l'interface : slider de 90 % à 150 %, appliqué instantanément et sauvegardé.
+Affichage des cartes par ligne : le joueur adapte son affichage en choisissant 2 à 5 cartes par ligne. Une carte représente 1 joueur. C'est avec ces cartes qu'il interagit pour les votes et ses actions.
+
+Notifications (dans le profil) :
+Activer ou désactiver les notifications push sur l'appareil courant. Interrupteurs par catégorie : changement de phase, nouveaux messages (chat), nouvelles entrées (journal).
+
+## 9. Création de partie
+
+Pour créer une partie personnalisée il faut cliqué sur "Partie personnalisée" puis aller dans l'onglet "Partie privée" et cliquer sur "Créer un Lobby".
+Pour inviter des amis tu cliques sur "partager", ils peuvent se connecter et ils atterriront directement dans le lobby de la partie.
+Tu peux décider de joueur toi aussi au jeu en cliquant sur jouer à côté de ton prénom, mais si tu souhaites expliquer le jeu à de nouveaux joueur il est préferable de resté en spectateur et en tant que MJ tu peuw nommer des Co-MJ pour t'aider à gérer la partie.
+Lorsque tous tes amis sont dans la partie, tu peux la lancer. Il n'y a PLUS de choix de mode de jeu : les anciens modes Classique, Initié et Confirmé ont été retirés, et toutes les parties suivent désormais les mêmes règles, uniformes :
+- Village comme loups reçoivent des rôles spéciaux (les loups ne sont donc pas de simples LG Standard).
+- Le camp ET le rôle exact d'un joueur sont révélés à TOUT LE MONDE le LENDEMAIN de sa mort, quelle qu'en soit la cause. La mort elle-même est annoncée immédiatement ; seule la révélation du rôle/camp attend le jour suivant. Un joueur ressuscité avant cette révélation (potion de vie de la Sorcière, ou décision du MJ) redevient totalement secret : la révélation programmée est annulée.
+- Les morts ne votent pas au lynchage (le "vote des morts" est désactivé) et n'ont pas accès au chat des morts.
+
+Configuration des rôles — deux modes sélectionnables :
+
+Mode Intelligent (par défaut) :
+Tous les rôles sont inclus par défaut ; le MJ peut décocher ceux qu'il veut exclure. Un toggle permet de choisir entre "Sans doublon" (chaque rôle présent une seule fois) et "Avec doublon" (le système ajoute automatiquement des copies supplémentaires selon le nombre de joueurs au lancement, dans l'ordre de priorité suivant : Enquêteur, Traqueur, Vagabond, Guetteur, Forgeron, Musicienne, Bourreau, Sorcière, Chasseur, Vaudou, Petite Fille). Le calcul n'est effectué qu'au moment du lancement, lorsque le nombre de joueurs est connu.
+
+Mode Manuel :
+Le MJ ajuste manuellement la quantité de chaque rôle avec [−] N [+]. Valeur par défaut : 1. Valeur 0 = rôle exclu. Maximum 10 par rôle.
+
+Règle commune aux deux modes — restriction des doublons pour les loups :
+Les rôles Vaudou et Petite Fille ne peuvent pas voir leur 2ème exemplaire (ou plus) attribué à un loup-garou. Si un loup devait recevoir un doublon de l'un de ces rôles, l'algorithme lui attribue à la place le prochain rôle disponible non restreint. Cette règle s'applique aussi aux nouvelles entrées en cours de partie.
+
+Construction du pool :
+Chaque rôle est répété autant de fois que sa valeur dans le pool, puis le pool est mélangé aléatoirement. Les rôles sont distribués séquentiellement aux joueurs. Si le nombre de joueurs est inférieur à la taille du pool, les entrées en surplus ne sont pas utilisées — les doublons non consommés sont ignorés naturellement.
+
+On peut aussi chosir l'horloge de jeu, il y a 2 styles.
+Manuel : Déclenché par les joueurs ou le MJ
+Automatique : Système de jeu sur 24h pendant 7 jours, où 1 jour dans le jeu est un vrai jour IRL.
+
+Grille horaire des parties automatiques (heure de Paris) :
+- 22h → 10h : la NUIT. Les pouvoirs nocturnes et l'attaque de la meute se jouent pendant cette plage. Une partie automatique démarre d'ailleurs à 22h, sur la première nuit.
+- 10h → 14h : uniquement le PREMIER jour, l'élection du Maire (10h-13h) et son éventuel second tour (13h-14h). Les jours suivants, la journée s'ouvre directement sur les débats dès 10h.
+- 14h → 20h : DÉBATS ET VOTES du lynchage — la plus longue plage de la journée, celle où se joue l'essentiel des discussions.
+- 20h → 22h : second tour du lynchage en cas d'égalité, puis crépuscule (l'exécuté meurt, la nuit tombe).
+
+## 10. Distribution à la création de la partie (rôles, camps, quartiers, pseudos, leurres)
+
+Tout est décidé côté serveur au moment où le MJ lance la partie, en une seule passe. Le MJ ne choisit que les quotas de rôles ; tout le reste est tiré au sort. Voici l'ordre exact des opérations.
+
+### Étape 1 — Les quartiers
+
+Le serveur compte les joueurs qui jouent réellement (les spectateurs et le MJ non-joueur sont exclus de ce décompte), puis ouvre un nombre de quartiers égal au nombre de joueurs divisé par 2, arrondi à l'inférieur, avec un minimum de 1 et un maximum de 5. L'objectif est de garantir au moins 2 joueurs par quartier : un quartier à un seul habitant rendrait son occupant trop facile à cibler.
+- 4 à 5 joueurs → 2 quartiers ; 6 à 7 → 3 ; 8 à 9 → 4 ; 10 et plus → les 5 quartiers.
+- Les quartiers effectivement ouverts sont tirés au hasard parmi les 5 : une petite partie n'utilise donc pas toujours les mêmes lieux.
+- Les joueurs sont répartis de la façon la plus équilibrée possible entre ces quartiers (les restes de division sont distribués un par un), puis l'ordre d'attribution est mélangé, de sorte que l'ordre d'arrivée dans le lobby ne donne aucune information sur le quartier obtenu.
+- Les spectateurs et le MJ non-joueur sont rattachés à un quartier de façon purement cosmétique : ils ne participent à aucun mécanisme lié aux quartiers.
+
+### Étape 2 — Les pseudos secrets
+
+Chaque joueur qui n'en a pas encore reçoit un pseudo secret, tiré d'une liste de pseudos du jeu. Un pseudo n'est jamais attribué deux fois dans la même partie, et les pseudos réservés aux faux joueurs (étape 5) sont exclus du tirage. C'est ce pseudo — et non le prénom — qui identifie un joueur dans la vue des quartiers et dans les pouvoirs nocturnes.
+
+### Étape 3 — Les camps
+
+La proportion de Loups-Garous visée est de 20 % de l'effectif (nombre de joueurs divisé par 5, arrondi au plus proche). Les camps pré-assignés manuellement par le MJ sont respectés et comptés dans ce total ; les joueurs restants reçoivent leur camp au hasard jusqu'à atteindre le quota de loups, les autres devenant villageois. La Secte Occulte n'est pas distribuée au lancement : elle se constitue en cours de partie par conversion.
+
+### Étape 4 — Les rôles
+
+Un pool de rôles est construit à partir des quotas définis par le MJ (chaque rôle répété autant de fois que sa valeur), puis mélangé. Tous les joueurs — village comme loups — y piochent un rôle : il n'existe plus de mode où les loups resteraient de simples Loups-Garous sans pouvoir. Le rôle reçoit ensuite un suffixe selon le camp de son porteur, ce qui en change les capacités (variante Village ou variante Loup-Garou ; la variante Occulte apparaît plus tard, par conversion).
+
+Trois garde-fous s'appliquent :
+- **Au moins un vrai loup attaquant.** Le Vaudou Loup-Garou ne participe pas à l'attaque nocturne de la meute. Si le tirage aboutissait à une meute composée uniquement de lui, l'algorithme lui substitue un Loup-Garou standard : une meute a toujours au moins un attaquant.
+- **Doublons interdits aux loups pour certains rôles.** Le 2ᵉ exemplaire (et les suivants) des rôles Vaudou et Petite Fille ne peut pas aller à un loup ; l'algorithme lui donne à la place le prochain rôle disponible non restreint.
+- **Repli.** Un joueur pour qui le pool est épuisé devient simplement Villageois ou Loup-Garou standard selon son camp.
+
+Le cas particulier du Vaudou Loup-Garou : lorsqu'un loup pioche le rôle Vaudou, son camp PUBLIC devient "village" alors qu'il appartient réellement aux loups. Il voit la meute, mais la meute ne le voit pas comme un loup, et il ne bénéficie pas de la vision élargie des quartiers réservée aux loups.
+
+### Étape 5 — Les faux joueurs des quartiers (leurres)
+
+Une fois les rôles distribués, le serveur crée autant de faux profils qu'il y a de Loups-Garous réellement distribués. Chacun reçoit un pseudo secret inutilisé, puis ils sont répartis sur les quartiers déjà peuplés : les quartiers occupés sont mélangés, puis les leurres y sont posés à tour de rôle, de sorte que deux leurres n'atterrissent jamais dans le même quartier tant qu'il reste des quartiers libres. Ce placement ne regarde QUE la liste des quartiers occupés — il est totalement indépendant de l'endroit où vivent les loups.
+
+Attention : dans une petite partie, le nombre de quartiers ouverts est faible (1 quartier à 2-3 joueurs, 2 quartiers à 4-5 joueurs). Un leurre partagera donc mécaniquement le quartier d'un loup très souvent, non par corrélation mais faute de quartiers disponibles.
+
+Ces faux profils n'ont ni rôle, ni camp, ni existence dans la logique du jeu : ils ne peuvent jamais être ciblés, votés, tués, ni comptés dans une condition de victoire. Le détail de leur comportement est décrit à la section 3 ("Faux joueurs des quartiers").
+
+### Étape 6 — Le cloisonnement anti-triche
+
+À l'issue de la distribution, les données de chaque joueur sont éclatées en plusieurs vues étanches :
+- Une **vue privée** contenant le rôle, le camp et les pouvoirs, lisible uniquement par le joueur concerné et par le MJ.
+- Une **vue publique assainie**, lisible par tous, d'où le rôle, le camp, les pouvoirs et le pseudo secret sont retirés. C'est elle qui alimente la vue du village.
+- Un **annuaire de pseudos anonyme**, indexé par pseudo et ne contenant aucune identité : il ne donne que le quartier et l'état vivant/mort. C'est la source de la vue des quartiers pour tous les camps, et il contient aussi les leurres, indistinguables des vrais joueurs.
+- Un **annuaire réservé à la meute**, celui-là indexé par joueur, qui associe prénom et pseudo secret. C'est le privilège d'information des Loups-Garous dans la vue des quartiers — le Vaudou Loup-Garou n'y a pas accès.
+
+Le rôle et le camp d'un joueur ne rejoignent la vue publique qu'au moment de sa révélation, c'est-à-dire le lendemain de sa mort (cf. section 2), et jamais tant qu'il est en vie.
+
+### Joueurs rejoignant une partie déjà en cours
+
+Un joueur qui rejoint en cours de route reçoit lui aussi un vrai rôle, tiré parmi ceux que le MJ a activés au lancement (les rôles exclus ne peuvent jamais lui être attribués). Son camp est déterminé pour conserver la proportion de Loups-Garous de la partie. Le pool étant calibré sur le nombre de joueurs présents au lancement, il est déjà entièrement consommé à ce stade : le retardataire pioche alors parmi l'ensemble des rôles autorisés par le MJ, sans tenir compte des quotas déjà atteints. Il est installé dans un quartier DÉJÀ occupé (le moins peuplé d'entre eux), afin de respecter la règle d'au moins 2 joueurs par quartier.
+
+## 11. Version et disponibilité des rôles
+
+Lycantyr est actuellement en version Alpha Test. La Bêta Test sortira prochainement, sans date annoncée pour le moment.
+
+Tous les rôles décrits dans ce document ne sont pas encore disponibles dans la version actuelle du jeu. Seuls les rôles intégrés à la distribution de parties sont jouables en v1 :
+- Disponibles en v1 : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
+- Retiré du jeu (rôle héritage, non jouable) : Médecin Légiste.
+- En cours d'intégration (pas encore disponibles) : Fossoyeur, Politicien, Prêtre, Embaumeur, Garde, Tavernier, Maître des Corbeaux, Confesseur, Meneur de Secte, Occultiste.
+
+Les rôles non disponibles seront intégrés progressivement au fur et à mesure des mises à jour après la sortie définitive du jeu.
