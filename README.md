@@ -4,7 +4,7 @@
 https://lycantyr.com
 https://discord.gg/gGCuXGJuYM
 
-Lycantyr est un jeu de rôles cachés et de déduction sociale multijoueur en temps réel. Les joueurs discutent, enquêtent, votent et utilisent des pouvoirs pour faire gagner leur camp. Les morts continuent à jouer avec leur camp, en pouvant continuer a discuter et à débattre ensemble pour ajouter un vote au village, et certains rôles peuvent les utiliser.
+Lycantyr est un jeu de rôles cachés et de déduction sociale multijoueur en temps réel. Les joueurs discutent, enquêtent, votent et utilisent des pouvoirs pour faire gagner leur camp. Un joueur éliminé garde la parole et continue d'œuvrer pour son camp, sans jamais dévoiler son camp ni son rôle — ceux-ci sont révélés à tout le village le lendemain de sa mort. Il n'a en revanche plus aucun pouvoir ni voix au vote du village : le « vote des morts » est désactivé. Certains rôles peuvent encore interagir avec les morts.
 Dans Lycantyr n'importe quel rôle peut appartenir à n'importr quel camp. On peut vous dire "Je suis petite fille" ou "Je suis chasseur" et c'est vérifiable par certains rôles mais vous ne saurez pas à quel camp il appartient.
 Le jeu repose sur un anonymat strict : les joueurs agissent sous un "Pseudo Secret" la nuit et l'identité des rôles morts n'est jamais confirmée publiquement. L'inactivité est sanctionnée par une mort automatique (foudroyage).
 Tout le jeu se déroule exclusivement sur l'application : aucune action réalisée en dehors du jeu, dans la vraie vie, ne peut être retenue contre un joueur ni utilisée pour le discréditer ou l'accuser — seules les actions, votes et déclarations faites DANS l'application comptent. Tous les joueurs jouent en même temps, répartis sur des phases de jeu communes (jour, nuit) qui rythment la partie simultanément pour tout le monde.
@@ -33,11 +33,34 @@ Révélation différée du rôle et du camp après la mort : le rôle ET le camp
 
 Les votes de jour (élection comme lynchage) sont PUBLICS et visibles EN DIRECT par tout le monde : chaque joueur ciblé porte une pastille indiquant son nombre de voix, et n'importe qui peut voir la liste nominative de ceux qui ont voté contre lui (cf. section 7). Voter est donc un acte assumé publiquement, immédiatement. Seul le vote d'attaque des Loups, la nuit, reste secret.
 
+### L'inactivité (le foudroyage)
+
+Un joueur qui ne donne plus signe de vie est frappé par la foudre et meurt sur-le-champ. La sanction vise l'ABSENCE, pas la discrétion : rester silencieux tout en suivant la partie ne tue pas.
+
+Ce qui compte comme signe de vie :
+* Voter (élection, lynchage, ou vote d'attaque de la meute la nuit).
+* Jouer une action de rôle — même si le jeu la refuse (mauvaise phase, pouvoir déjà utilisé, joueur blessé…) : avoir essayé suffit.
+* Écrire dans n'importe quel chat.
+* Simplement interagir avec l'écran de jeu (toucher, cliquer, taper, faire défiler). Tant que la partie est au premier plan et que le joueur manipule son écran, sa présence est enregistrée : lire le débat ou traverser une nuit où son rôle n'a rien à jouer ne l'expose donc pas. En revanche, une application laissée ouverte en arrière-plan ne compte pas comme une présence.
+
+Délais, selon le rythme de la partie :
+* Parties MANUELLES (en direct, phases menées par le MJ) : avertissement au bout de 10 minutes sans signe de vie, foudroyage au bout de 20 minutes.
+* Parties AUTOMATIQUES (une phase par jour réel) : avertissement au bout de 20 heures, foudroyage au bout de 30 heures.
+
+L'avertissement n'est jamais silencieux : un bandeau apparaît en haut de l'écran avec le temps restant réel avant la foudre, doublé d'une notification push. Un bouton « Je suis là » remet le compteur à zéro immédiatement.
+
+Conséquences de la foudre :
+* La mort est annoncée publiquement dans le journal, le jour même.
+* Si le foudroyé était amoureux, le lien est brisé unilatéralement : son compagnon SURVIT (aucun chagrin d'amour) et le couple n'est jamais révélé.
+* En matchmaking uniquement, le score de bonne conduite du joueur retombe à 1/5.
+
+Le MJ peut désactiver entièrement le foudroyage depuis les paramètres de partie (cf. section 8) : les joueurs inactifs ne sont alors plus éliminés, et les bandeaux d'inactivité déjà affichés disparaissent. Les parties tutoriel ne foudroient jamais personne.
+
 ## 3. LES FACTIONS ET CONDITIONS DE VICTOIRE
 
 * Le Village : Remporte la partie si tous les Loups-Garous et la Secte Occulte sont éliminés. Ils ne connaissent le camp ou le rôle de personne par défaut, dans la vue du village ils voient seulement les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs et leur pseudo secret en dessous.
 * Les Loups-Garous : Remportent la partie s'ils atteignent la parité numérique en proportion (Si il y avait 20% de Loup-Garou en debut de partie il faut qu'en fin de partie il y en ai 20% ou plus). Ils connaissent les autres loups (dos de carte loup), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes des joueurs, avec leur prénom ET leur pseudo secret affichés l'un sous l'autre en dessous de la carte. Le Vaudou Loup-Garou ne bénéficie pas de cet avantage : comme les autres camps, il ne voit que le pseudo secret des joueurs dans les quartiers.
-* La Secte Occulte : Remporte la partie si — (1) ses membres sont plus nombreux que les Loups-Garous en vie, (2) un leader de la Secte est en vie (Occultiste ou Meneur de Secte), (3) le Maire est un membre de la Secte. Si tous les Loups sont éliminés, la condition de majorité disparaît : un leader en vie et le Maire Occulte suffisent à l'emporter. Sans leader en vie, le Village gagne même si le Maire est Occulte. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
+* La Secte Occulte : Remporte la partie si — (1) ses membres sont plus nombreux que les Loups-Garous en vie, ET (2) le MENEUR DE SECTE est en vie OU le Maire est un membre de la Secte. Les deux dernières conditions sont ALTERNATIVES : il suffit de l'une des deux. ⚠️ Seul le Meneur de Secte compte pour cette voie : un Occultiste vivant ne remplace PAS son chef. Si tous les Loups sont éliminés, la condition de majorité disparaît et l'une des deux voies suffit à l'emporter. Sans Meneur en vie NI Maire occulte, le Village gagne — tuer le Meneur prive donc la Secte de la moitié de ses chances. Ils connaissent les autres occultes (dos de carte occulte/occultiste/meneur de secte), dans la vue du village ils voient les prénoms des joueurs en dessous d'un dos de carte. Dans la vue des quartiers ils voient les 5 quartiers, si ils cliquent sur un quartier, ils voient des dos de cartes (neutre) des joueurs et leur pseudo secret en dessous.
 
 Une partie peut se terminer avant les 8 nuits maximum dans deux cas : tous les Loups sont morts, ou tous les Villageois et Occultes sont morts. À la fin de la 8ème nuit, les conditions de victoire proportionnelles s'appliquent.
 
@@ -143,12 +166,14 @@ Ce qu'il faisait, à l'époque où il existait : chaque nuit, il pouvait autopsi
 
 ### LE FOSSOYEUR (Nuit 1)
 
-* Variante Village & Loup-Garou : Chaque nuit, il choisit un joueur mort qui n'a pas encore été réveillé. Ce mort est "éveillé" temporairement : il reçoit un message dans son journal lui proposant deux choix pour la fin de cette même nuit : (a) utiliser son pouvoir de rôle une dernière fois, ou (b) voter de façon posthume lors du prochain lynchage.
-  - Le mort réveillé utilise SON choix avant la fin de la nuit (son bouton Vote ou Action s'illumine d'un halo rouge néon).
-  - S'il choisit le "Vote Posthume", son vote est enregistré discrètement et comptabilisé lors du prochain lynchage du village (affiché avec le label "Vote posthume" dans la liste des votants).
+* Variante Village & Loup-Garou : Chaque nuit, il choisit un joueur mort qui n'a pas encore été réveillé. Le réveil prend effet IMMÉDIATEMENT, dès que le Fossoyeur désigne le cadavre : le mort reçoit aussitôt un message dans son journal lui proposant deux choix : (a) utiliser son pouvoir de rôle une dernière fois, ou (b) voter de façon posthume lors du lynchage à venir.
+  - Le mort réveillé dispose d'une fenêtre qui court JUSQU'À LA NUIT SUIVANTE : le reste de la nuit où il a été réveillé, puis toute la journée qui suit (élection, lynchage, crépuscule). Son bouton Vote ou Action s'illumine d'un halo rouge néon pendant toute cette période. Dès que la nuit suivante tombe, la fenêtre se referme définitivement.
+  - Il n'a droit qu'à UNE seule utilisation : le premier des deux choix qu'il joue consomme sa fenêtre, même s'il lui reste du temps.
+  - S'il choisit le "Vote Posthume", son vote est enregistré discrètement et comptabilisé lors du lynchage du jour en cours (affiché avec le label "Vote posthume" dans la liste des votants). Le bulletin étant inscrit dès qu'il vote, il compte bien pour le lynchage qu'il vise — qu'il ait voté pendant la nuit ou en pleine journée.
   - S'il choisit son action de rôle, il l'exécute normalement et l'effet s'applique.
+  - S'il ne fait rien avant la nuit suivante, son journal lui indique qu'il est reparti sans agir.
   - Un mort ne peut être éveillé qu'une seule fois par partie.
-  - Si deux Fossoyeurs ciblent le même mort la même nuit, le mort est tout de même réveillé normalement.
+  - Si deux Fossoyeurs ciblent le même mort la même nuit, le mort est réveillé une seule fois (par le premier des deux), et chacun des deux Fossoyeurs apprend dans son journal qu'un confrère a travaillé sur le même cadavre.
   - Si le Fossoyeur et l'Embaumeur travaillent sur le même cadavre la même nuit, chacun d'eux apprend dans son journal que l'autre a également agi sur ce corps.
 * Variante Occulte : En plus de tout ce qui précède, le Fossoyeur apprend dans son journal le rôle exact et le camp du mort qu'il vient de réveiller.
 
@@ -180,14 +205,28 @@ Ce qu'il faisait, à l'époque où il existait : chaque nuit, il pouvait autopsi
 
 * Variante Village : Rôle obtenu dynamiquement. Si le village compte au moins 13 joueurs, le premier innocent tué par les Loups-Garous survit miraculeusement. Il perd son ancien rôle et devient le Crieur. Tant qu'il est en vie, il reçoit en privé (journal personnel) les causes exactes de toutes les morts nocturnes (Tir de chasseur, potion, sacrifice, etc.). Le reste du village ne voit que l'annonce standard sans détail de la cause.
 
-### LE MAÎTRE DES CORBEAUX (Nuit 1)
+### LE TAVERNIER (Jour — pendant le lynchage ou le crépuscule)
 
-* Variante Village & Loup-Garou : Une fois par partie, la nuit, il désigne secrètement un joueur en lui posant un corbeau. Le joueur marqué est exclu du vote de lynchage normal. À la place, un vote spécial "Vote corbeau" est ouvert à tout le village pendant la phase de lynchage : si strictement plus de la moitié des joueurs vivants (spectateurs exclus) votent contre lui, le porteur du corbeau est exécuté. Sinon, le corbeau est retiré et rien ne se passe. La présence du corbeau est annoncée publiquement (label 🦅 visible sur la carte du joueur) et inscrite dans le journal de groupe dès la nuit suivante. Le joueur portant le corbeau n'est pas grisé lors d'un second tour de lynchage et peut tout de même être ciblé. Le Maître des Corbeaux lui-même vote avec le bouton "Voter contre le corbeau" comme les autres.
+* Variante Village & Loup-Garou : 2 Tournées Générales par partie, une seule par jour. En pleine journée, il décrète la Tournée Générale dans le quartier de son choix.
+  - La tournée est annoncée PUBLIQUEMENT au village dès le début de la nuit qui suit : tout le monde sait quel quartier fait la fête, y compris les Loups.
+  - Cette nuit-là, les Loups-Garous ET le Meneur de Secte ne peuvent pas attaquer ce quartier : il est intouchable.
+  - Le lendemain matin, les habitants présents dans ce quartier se réveillent avec la gueule de bois : ils ne peuvent ni voter ni utiliser leur pouvoir pendant le lynchage de la journée.
+  - Protéger un quartier a donc un coût : ses habitants sont neutralisés au vote du lendemain, et le village perd autant de voix. Sauver des vies affaiblit le débat.
+* Variante Occulte : 3 Tournées Générales par partie au lieu de 2.
+
+### LE MAÎTRE DES CORBEAUX (Nuit 1 — 3 fois par partie)
+
+* Variante Village & Loup-Garou : 3 corbeaux par partie, un seul à la fois. La nuit, il désigne secrètement un joueur en lui posant un corbeau. Le corbeau se réinitialise chaque jour : une fois la journée passée, la charge est consommée et il peut en reposer un la nuit suivante. Le joueur marqué est exclu du vote de lynchage normal. À la place, un vote spécial "Vote corbeau" est ouvert à tout le village pendant la phase de lynchage : si strictement plus de la moitié des joueurs vivants (spectateurs exclus) votent contre lui, le porteur du corbeau est exécuté. Sinon, le corbeau est retiré et rien ne se passe. La présence du corbeau est annoncée publiquement (label 🦅 visible sur la carte du joueur) et inscrite dans le journal de groupe dès la nuit suivante. Le joueur portant le corbeau n'est pas grisé lors d'un second tour de lynchage et peut tout de même être ciblé. Le Maître des Corbeaux lui-même vote avec le bouton "Voter contre le corbeau" comme les autres.
 * Variante Occulte : Son corbeau invisible pèse plus lourd — son propre vote corbeau compte double (il apporte 1 vote bonus automatique au total des votes corbeau), augmentant la pression sur la cible.
 
 ### LE CONFESSEUR (Nuit)
 
-* Variante Village & Loup-Garou : 3 charges par partie. La nuit, il cible secrètement un joueur pour "confesser" ses liens cachés. Le backend lit et stocke si la cible est amoureuse (lover_id), bénie (is_blessed) ou porteuse de jetons occultes (occultTokenCount). Le Confesseur reçoit ces informations et peut choisir de briser UNE seule chose parmi les liens détectés :
+* Variante Village & Loup-Garou : 3 charges par partie. Le Confesseur joue UNE action par nuit, et il choisit laquelle : soit CONFESSER une nouvelle cible, soit BRISER un lien révélé par une confession précédente.
+  - La confession : il cible secrètement un joueur pour "confesser" ses liens cachés. Ses révélations — la cible est-elle amoureuse, bénie, ou porteuse de jetons occultes — ne lui parviennent qu'AU MATIN, à la résolution de la nuit.
+  - Le brisement : il ne peut donc JAMAIS confesser et briser dans la même soirée. Il exploite ce qu'il a appris lors d'une nuit ANTÉRIEURE : à partir de la nuit suivante, la confession devient utilisable et il peut briser UNE seule chose parmi les liens qu'elle a dévoilés.
+  - Chaque confession ne peut servir qu'UNE fois. S'il en a accumulé plusieurs sans les exploiter, c'est la plus récente qui lui est proposée.
+  - Les liens ayant pu bouger entre la confession et le brisement (l'amoureux est mort, la bénédiction a sauté…), l'effet est revalidé sur la situation du moment : si le lien n'existe plus, il ne se passe rien.
+  Les trois brisements possibles :
   - Briser le lien amoureux : unilatéral (seul le lover_id de la cible est supprimé, pas celui de l'autre amoureux). Attention : si le couple est inter-camp loup/village, l'amour résiste — la charge est quand même consommée.
   - Retirer la bénédiction : la cible n'est plus protégée contre les conversions occultes (is_blessed → false).
   - Purifier les jetons occultes : tous les jetons occultes de la cible sont retirés (occultTokenCount → 0).
@@ -285,6 +324,7 @@ Confidentialité (RGPD) : Renvoi vers les RGPD.
 
 Paramètres supplémentaire en partie :
 Le bouton ⚙️ en haut à droite de l'écran en partie ouvre le panneau de paramètres de jeu (options MJ). Les préférences personnelles (Interface et Notifications) sont accessibles depuis le profil du joueur.
+Le MJ y trouve aussi l'interrupteur « ⚡ Foudroyage AFK », qui active ou désactive l'élimination automatique des joueurs inactifs pour toute la partie (règle détaillée en section 2), ainsi que le chrono de phase.
 Le MJ y dispose d'un bouton « Mettre fin à la partie » qui termine immédiatement la partie en cours. Les conditions de victoire sont alors calculées sur la situation du moment, exactement comme à la fin de la dernière nuit (règle proportionnelle des Loups-Garous), puis la page des scores s'affiche pour tous les joueurs. La partie compte comme une fin normale (Elo, statistiques et compteurs de parties sont appliqués). Ce bouton est accessible à tout MJ, quel que soit son niveau de progression.
 
 Écran de fin persistant : la page des scores reste accessible à TOUS les joueurs tant qu'ils n'ont pas cliqué sur « Quitter » (bouton en bas de cet écran) — pas seulement au MJ. Un joueur qui n'était pas connecté au moment exact de la fin de partie (application fermée, notification manquée, écran verrouillé…) la retrouve automatiquement en rouvrant l'application, exactement comme s'il rouvrait une partie encore en cours.
@@ -389,9 +429,24 @@ Un joueur qui rejoint en cours de route reçoit lui aussi un vrai rôle, tiré p
 
 Lycantyr est actuellement en version Alpha Test. La Bêta Test sortira prochainement, sans date annoncée pour le moment.
 
-Tous les rôles décrits dans ce document ne sont pas encore disponibles dans la version actuelle du jeu. Seuls les rôles intégrés à la distribution de parties sont jouables en v1 :
-- Disponibles en v1 : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
+Les rôles sont répartis en trois ensembles, visibles comme tels dans le glossaire du jeu :
+
+- JEU DE BASE (toujours distribué en premier) : Vaudou, Sorcière, Forgeron, Chasseur, Petite Fille, Musicienne, Enquêteur, Vagabond, Guetteur, Bourreau, Traqueur des Ruelles, Crieur (passif, dynamique).
+- JEU ADDITIONNEL (contour vert) : Fossoyeur, Politicien, Embaumeur, Garde, Tavernier, Maître des Corbeaux.
+- JEU ADDITIONNEL, VOLET SECTE (contour violet, même bloc « Jeu additionnel » dans l'interface) : Meneur de Secte, Prêtre, Confesseur. Ce bloc introduit la troisième faction et sa condition de victoire propre. Le Prêtre (bénédiction contre les conversions) et le Confesseur (retrait de bénédiction, purification des jetons) y sont rangés parce que leurs pouvoirs n'ont d'objet que face à la Secte — sans en être membres pour autant.
+- STATUTS OCCULTES, non distribuables : « Occulte » et « Occultiste » ne sont jamais tirés en début de partie. Ils s'acquièrent EN JEU par conversion (2 jetons pour devenir Occulte, 2 de plus pour évoluer en Occultiste) et se superposent au rôle de base du joueur. Ils figurent donc dans la section « Camps & Statuts Spéciaux » du glossaire, et non parmi les rôles.
 - Retiré du jeu (rôle héritage, non jouable) : Médecin Légiste.
-- En cours d'intégration (pas encore disponibles) : Fossoyeur, Politicien, Prêtre, Embaumeur, Garde, Tavernier, Maître des Corbeaux, Confesseur, Meneur de Secte, Occultiste.
+
+Règles de distribution des deux ensembles supplémentaires :
+* Ils sont OPTIONNELS et désactivés par défaut. Le MJ les active depuis l'écran de configuration de la partie, dans le salon, où ils apparaissent dans leurs blocs vert et violet.
+* Ils s'activent librement, indépendamment du jeu de base : le MJ peut très bien retirer un rôle de base ET activer des rôles supplémentaires.
+* Deux rôles de la Secte ont des conditions propres, vérifiées par le serveur même si le MJ les a cochés :
+  - Le MENEUR DE SECTE n'est distribué qu'à partir de 20 joueurs. En dessous, une Secte convertit plus vite que le village n'élimine.
+  - Si le MJ place un ou plusieurs joueurs en « Occulte » sans désigner de Meneur, le premier d'entre eux (tiré au hasard) devient automatiquement Meneur de Secte : sans chef, personne ne distribue de jeton et la Secte ne pourrait ni convertir ni sacrifier.
+  - Le CONFESSEUR n'est distribué que si un Meneur de Secte OU un Prêtre l'est aussi : deux de ses trois pouvoirs (retirer une bénédiction, purifier des jetons occultes) n'ont de cible que grâce à eux.
+  - Le PRÊTRE n'est distribué que si un Meneur de Secte l'est aussi : sa bénédiction ne protège que de la conversion occulte, elle n'aurait aucune cible sans Secte. Si le tirage allait sortir un Prêtre sans Meneur, c'est le Meneur qui prend sa place.
+* Ils ne sont tirés qu'APRÈS que tous les rôles de base ACTIFS ont été attribués : ils n'occupent que les sièges restants. Avec les 11 rôles de base actifs, aucun rôle supplémentaire ne sort en dessous de 12 joueurs ; si le MJ en désactive, le seuil descend d'autant.
+* Ils peuvent sortir en plusieurs exemplaires, comme les rôles de base, mais les doublons du jeu de base sont servis en priorité.
+* Le Prêtre et le Meneur de Secte n'existent qu'en une seule version et ne sont jamais attribués à un Loup-Garou. Tous les autres rôles supplémentaires, Confesseur compris, ont une variante Loup et peuvent échoir à la meute.
 
 Les rôles non disponibles seront intégrés progressivement au fur et à mesure des mises à jour après la sortie définitive du jeu.
